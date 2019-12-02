@@ -1,0 +1,2134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1574841571218" clover="3.2.0">
+  <project timestamp="1574841571218" name="All files">
+    <metrics statements="1923" coveredstatements="1875" conditionals="596" coveredconditionals="589" methods="493" coveredmethods="485" elements="3012" coveredelements="2949" complexity="0" loc="1923" ncloc="1923" packages="26" files="42" classes="42">
+      <package name="affix">
+        <metrics statements="40" coveredstatements="40" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
+        <file name="Affix.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/affix/Affix.vue">
+          <metrics statements="40" coveredstatements="40" conditionals="18" coveredconditionals="18" methods="8" coveredmethods="8"/>
+          <line num="11" count="1" type="stmt"/>
+          <line num="14" count="1" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="18" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="32" count="9" type="stmt"/>
+          <line num="34" count="9" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="63" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="67" count="7" type="stmt"/>
+          <line num="68" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="69" count="3" type="stmt"/>
+          <line num="71" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="74" count="7" type="stmt"/>
+          <line num="78" count="9" type="stmt"/>
+          <line num="82" count="9" type="stmt"/>
+          <line num="83" count="9" type="stmt"/>
+          <line num="87" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="88" count="1" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="94" count="10" type="stmt"/>
+          <line num="96" count="10" type="stmt"/>
+          <line num="97" count="10" type="stmt"/>
+          <line num="98" count="10" type="stmt"/>
+          <line num="99" count="10" type="cond" truecount="4" falsecount="0"/>
+          <line num="109" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="110" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="111" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="112" count="10" type="stmt"/>
+          <line num="114" count="10" type="stmt"/>
+          <line num="119" count="10" type="stmt"/>
+          <line num="121" count="10" type="stmt"/>
+        </file>
+      </package>
+      <package name="badge">
+        <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
+        <file name="Badge.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/badge/Badge.vue">
+          <metrics statements="22" coveredstatements="22" conditionals="10" coveredconditionals="10" methods="10" coveredmethods="10"/>
+          <line num="32" count="1" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="42" count="16" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="62" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="66" count="5" type="stmt"/>
+          <line num="67" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="70" count="5" type="stmt"/>
+          <line num="74" count="16" type="stmt"/>
+          <line num="78" count="16" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="86" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="90" count="16" type="stmt"/>
+          <line num="94" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="98" count="12" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="breadcrumb">
+        <metrics statements="18" coveredstatements="18" conditionals="8" coveredconditionals="8" methods="4" coveredmethods="4"/>
+        <file name="Breadcrumb.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/breadcrumb/Breadcrumb.vue">
+          <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="13" count="2" type="stmt"/>
+          <line num="14" count="9" type="stmt"/>
+        </file>
+        <file name="BreadcrumbItem.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/breadcrumb/BreadcrumbItem.vue">
+          <metrics statements="15" coveredstatements="15" conditionals="8" coveredconditionals="8" methods="3" coveredmethods="3"/>
+          <line num="16" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="31" count="9" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="53" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="56" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="59" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="60" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="button">
+        <metrics statements="40" coveredstatements="40" conditionals="6" coveredconditionals="6" methods="8" coveredmethods="8"/>
+        <file name="Button.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/button/Button.vue">
+          <metrics statements="34" coveredstatements="34" conditionals="6" coveredconditionals="6" methods="7" coveredmethods="7"/>
+          <line num="36" count="4" type="stmt"/>
+          <line num="43" count="4" type="stmt"/>
+          <line num="44" count="4" type="stmt"/>
+          <line num="45" count="4" type="stmt"/>
+          <line num="52" count="4" type="stmt"/>
+          <line num="53" count="204" type="stmt"/>
+          <line num="55" count="204" type="stmt"/>
+          <line num="57" count="204" type="stmt"/>
+          <line num="59" count="204" type="stmt"/>
+          <line num="61" count="204" type="stmt"/>
+          <line num="63" count="204" type="stmt"/>
+          <line num="65" count="4" type="stmt"/>
+          <line num="67" count="4" type="stmt"/>
+          <line num="72" count="4" type="stmt"/>
+          <line num="74" count="4" type="stmt"/>
+          <line num="76" count="4" type="stmt"/>
+          <line num="78" count="4" type="stmt"/>
+          <line num="80" count="4" type="stmt"/>
+          <line num="82" count="4" type="stmt"/>
+          <line num="87" count="4" type="stmt"/>
+          <line num="93" count="4" type="stmt"/>
+          <line num="96" count="204" type="cond" truecount="2" falsecount="0"/>
+          <line num="100" count="204" type="stmt"/>
+          <line num="104" count="204" type="cond" truecount="2" falsecount="0"/>
+          <line num="108" count="2" type="stmt"/>
+          <line num="109" count="2" type="stmt"/>
+          <line num="110" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="111" count="1" type="stmt"/>
+          <line num="116" count="4" type="stmt"/>
+          <line num="117" count="1" type="stmt"/>
+          <line num="119" count="1" type="stmt"/>
+          <line num="124" count="1" type="stmt"/>
+          <line num="126" count="1" type="stmt"/>
+          <line num="128" count="1" type="stmt"/>
+        </file>
+        <file name="ButtonGroup.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/button/ButtonGroup.vue">
+          <metrics statements="6" coveredstatements="6" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="11" count="2" type="stmt"/>
+          <line num="20" count="4" type="stmt"/>
+          <line num="21" count="2" type="stmt"/>
+          <line num="23" count="2" type="stmt"/>
+          <line num="25" count="2" type="stmt"/>
+          <line num="27" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="cascader">
+        <metrics statements="193" coveredstatements="193" conditionals="66" coveredconditionals="66" methods="44" coveredmethods="44"/>
+        <file name="Cascader.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/cascader/Cascader.vue">
+          <metrics statements="136" coveredstatements="136" conditionals="34" coveredconditionals="34" methods="32" coveredmethods="32"/>
+          <line num="108" count="1" type="stmt"/>
+          <line num="115" count="1" type="stmt"/>
+          <line num="116" count="1" type="stmt"/>
+          <line num="117" count="1" type="stmt"/>
+          <line num="118" count="1" type="stmt"/>
+          <line num="119" count="1" type="stmt"/>
+          <line num="120" count="1" type="stmt"/>
+          <line num="121" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+          <line num="128" count="1" type="stmt"/>
+          <line num="131" count="1" type="stmt"/>
+          <line num="132" count="1" type="stmt"/>
+          <line num="133" count="1" type="stmt"/>
+          <line num="134" count="1" type="stmt"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="137" count="1" type="stmt"/>
+          <line num="139" count="1" type="stmt"/>
+          <line num="148" count="1" type="stmt"/>
+          <line num="149" count="81" type="stmt"/>
+          <line num="151" count="81" type="stmt"/>
+          <line num="153" count="81" type="stmt"/>
+          <line num="155" count="81" type="stmt"/>
+          <line num="159" count="81" type="stmt"/>
+          <line num="161" count="81" type="stmt"/>
+          <line num="163" count="81" type="stmt"/>
+          <line num="165" count="81" type="stmt"/>
+          <line num="167" count="81" type="stmt"/>
+          <line num="169" count="81" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="176" count="1" type="stmt"/>
+          <line num="181" count="1" type="stmt"/>
+          <line num="186" count="1" type="stmt"/>
+          <line num="191" count="1" type="stmt"/>
+          <line num="196" count="1" type="stmt"/>
+          <line num="198" count="1" type="stmt"/>
+          <line num="200" count="1" type="stmt"/>
+          <line num="202" count="1" type="stmt"/>
+          <line num="204" count="1" type="stmt"/>
+          <line num="209" count="1" type="stmt"/>
+          <line num="214" count="1" type="stmt"/>
+          <line num="218" count="81" type="stmt"/>
+          <line num="219" count="1" type="stmt"/>
+          <line num="224" count="2" type="stmt"/>
+          <line num="225" count="2" type="stmt"/>
+          <line num="226" count="2" type="stmt"/>
+          <line num="230" count="1" type="stmt"/>
+          <line num="232" count="1" type="stmt"/>
+          <line num="234" count="1" type="stmt"/>
+          <line num="236" count="1" type="stmt"/>
+          <line num="241" count="1" type="stmt"/>
+          <line num="246" count="1" type="stmt"/>
+          <line num="249" count="1" type="stmt"/>
+          <line num="253" count="81" type="stmt"/>
+          <line num="257" count="148" type="stmt"/>
+          <line num="261" count="148" type="cond" truecount="2" falsecount="0"/>
+          <line num="262" count="148" type="stmt"/>
+          <line num="266" count="81" type="stmt"/>
+          <line num="270" count="86" type="stmt"/>
+          <line num="276" count="81" type="stmt"/>
+          <line num="277" count="81" type="stmt"/>
+          <line num="281" count="1" type="stmt"/>
+          <line num="285" count="1" type="stmt"/>
+          <line num="289" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="290" count="1" type="stmt"/>
+          <line num="292" count="2" type="stmt"/>
+          <line num="297" count="1" type="stmt"/>
+          <line num="298" count="2" type="stmt"/>
+          <line num="301" count="2" type="stmt"/>
+          <line num="302" count="2" type="stmt"/>
+          <line num="303" count="2" type="stmt"/>
+          <line num="314" count="2" type="stmt"/>
+          <line num="316" count="2" type="stmt"/>
+          <line num="317" count="2" type="stmt"/>
+          <line num="319" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="320" count="1" type="stmt"/>
+          <line num="321" count="1" type="stmt"/>
+          <line num="324" count="2" type="stmt"/>
+          <line num="328" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="329" count="2" type="stmt"/>
+          <line num="330" count="2" type="stmt"/>
+          <line num="331" count="2" type="stmt"/>
+          <line num="332" count="2" type="stmt"/>
+          <line num="333" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="334" count="1" type="stmt"/>
+          <line num="336" count="2" type="stmt"/>
+          <line num="337" count="2" type="stmt"/>
+          <line num="344" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="345" count="1" type="stmt"/>
+          <line num="346" count="1" type="stmt"/>
+          <line num="347" count="1" type="stmt"/>
+          <line num="353" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="355" count="4" type="stmt"/>
+          <line num="356" count="3" type="stmt"/>
+          <line num="358" count="4" type="stmt"/>
+          <line num="362" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="366" count="2" type="stmt"/>
+          <line num="367" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="369" count="2" type="stmt"/>
+          <line num="370" count="3" type="stmt"/>
+          <line num="372" count="2" type="stmt"/>
+          <line num="373" count="2" type="stmt"/>
+          <line num="374" count="2" type="stmt"/>
+          <line num="379" count="2" type="stmt"/>
+          <line num="381" count="2" type="stmt"/>
+          <line num="383" count="2" type="stmt"/>
+          <line num="385" count="2" type="cond" truecount="4" falsecount="0"/>
+          <line num="386" count="1" type="stmt"/>
+          <line num="387" count="1" type="stmt"/>
+          <line num="390" count="2" type="stmt"/>
+          <line num="394" count="5" type="stmt"/>
+          <line num="398" count="2" type="stmt"/>
+          <line num="399" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="400" count="1" type="stmt"/>
+          <line num="405" count="2" type="stmt"/>
+          <line num="406" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="407" count="1" type="stmt"/>
+          <line num="412" count="2" type="stmt"/>
+          <line num="413" count="2" type="stmt"/>
+          <line num="417" count="1" type="stmt"/>
+          <line num="421" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="422" count="1" type="stmt"/>
+          <line num="427" count="1" type="stmt"/>
+          <line num="428" count="1" type="stmt"/>
+          <line num="429" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="430" count="1" type="stmt"/>
+          <line num="431" count="1" type="stmt"/>
+          <line num="440" count="1" type="stmt"/>
+          <line num="442" count="2" type="stmt"/>
+          <line num="443" count="2" type="stmt"/>
+          <line num="444" count="2" type="stmt"/>
+          <line num="449" count="1" type="stmt"/>
+          <line num="451" count="1" type="stmt"/>
+          <line num="461" count="2" type="stmt"/>
+          <line num="465" count="2" type="stmt"/>
+          <line num="474" count="3" type="stmt"/>
+          <line num="475" count="3" type="stmt"/>
+        </file>
+        <file name="CascaderPanel.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/cascader/CascaderPanel.vue">
+          <metrics statements="57" coveredstatements="57" conditionals="32" coveredconditionals="32" methods="12" coveredmethods="12"/>
+          <line num="31" count="2" type="stmt"/>
+          <line num="38" count="2" type="stmt"/>
+          <line num="39" count="2" type="stmt"/>
+          <line num="40" count="2" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="42" count="2" type="stmt"/>
+          <line num="48" count="2" type="stmt"/>
+          <line num="50" count="2" type="stmt"/>
+          <line num="62" count="2" type="stmt"/>
+          <line num="63" count="36" type="stmt"/>
+          <line num="65" count="36" type="stmt"/>
+          <line num="67" count="36" type="stmt"/>
+          <line num="69" count="2" type="stmt"/>
+          <line num="74" count="2" type="stmt"/>
+          <line num="79" count="2" type="stmt"/>
+          <line num="83" count="36" type="stmt"/>
+          <line num="84" count="2" type="stmt"/>
+          <line num="87" count="36" type="stmt"/>
+          <line num="96" count="2" type="cond" truecount="5" falsecount="0"/>
+          <line num="103" count="1" type="stmt"/>
+          <line num="105" count="1" type="stmt"/>
+          <line num="116" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="117" count="4" type="stmt"/>
+          <line num="118" count="8" type="stmt"/>
+          <line num="123" count="4" type="cond" truecount="6" falsecount="0"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="128" count="1" type="stmt"/>
+          <line num="131" count="3" type="stmt"/>
+          <line num="133" count="3" type="stmt"/>
+          <line num="138" count="3" type="cond" truecount="3" falsecount="0"/>
+          <line num="140" count="3" type="stmt"/>
+          <line num="142" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="143" count="2" type="stmt"/>
+          <line num="151" count="2" type="stmt"/>
+          <line num="154" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="155" count="2" type="stmt"/>
+          <line num="158" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="159" count="1" type="stmt"/>
+          <line num="165" count="1" type="stmt"/>
+          <line num="173" count="4" type="stmt"/>
+          <line num="175" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="176" count="1" type="stmt"/>
+          <line num="181" count="2" type="stmt"/>
+          <line num="182" count="3" type="stmt"/>
+          <line num="183" count="3" type="stmt"/>
+          <line num="185" count="2" type="stmt"/>
+          <line num="186" count="2" type="stmt"/>
+          <line num="190" count="4" type="stmt"/>
+          <line num="191" count="4" type="stmt"/>
+          <line num="200" count="2" type="stmt"/>
+          <line num="201" count="2" type="stmt"/>
+          <line num="202" count="2" type="stmt"/>
+          <line num="206" count="2" type="stmt"/>
+          <line num="208" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="209" count="2" type="stmt"/>
+          <line num="212" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="213" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="checkbox">
+        <metrics statements="77" coveredstatements="77" conditionals="36" coveredconditionals="36" methods="15" coveredmethods="15"/>
+        <file name="Checkbox.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/checkbox/Checkbox.vue">
+          <metrics statements="45" coveredstatements="45" conditionals="28" coveredconditionals="28" methods="8" coveredmethods="8"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="69" count="2" type="stmt"/>
+          <line num="70" count="110" type="stmt"/>
+          <line num="72" count="110" type="stmt"/>
+          <line num="74" count="110" type="stmt"/>
+          <line num="76" count="110" type="stmt"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="83" count="1" type="stmt"/>
+          <line num="85" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="91" count="1" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="100" count="1" type="stmt"/>
+          <line num="103" count="110" type="stmt"/>
+          <line num="107" count="1" type="stmt"/>
+          <line num="108" count="114" type="cond" truecount="8" falsecount="0"/>
+          <line num="113" count="35" type="stmt"/>
+          <line num="116" count="114" type="cond" truecount="4" falsecount="0"/>
+          <line num="117" count="11" type="stmt"/>
+          <line num="122" count="34" type="stmt"/>
+          <line num="124" count="34" type="cond" truecount="2" falsecount="0"/>
+          <line num="125" count="1" type="stmt"/>
+          <line num="128" count="34" type="stmt"/>
+          <line num="132" count="162" type="stmt"/>
+          <line num="134" count="162" type="cond" truecount="4" falsecount="0"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="138" count="162" type="cond" truecount="4" falsecount="0"/>
+          <line num="139" count="2" type="stmt"/>
+          <line num="140" count="2" type="stmt"/>
+          <line num="143" count="162" type="stmt"/>
+          <line num="147" count="1" type="stmt"/>
+          <line num="148" count="8" type="stmt"/>
+          <line num="150" count="8" type="stmt"/>
+          <line num="159" count="8" type="stmt"/>
+          <line num="161" count="8" type="stmt"/>
+          <line num="165" count="1" type="stmt"/>
+          <line num="166" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="167" count="2" type="stmt"/>
+          <line num="169" count="6" type="stmt"/>
+          <line num="170" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="171" count="2" type="stmt"/>
+          <line num="173" count="4" type="stmt"/>
+        </file>
+        <file name="CheckboxGroup.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/checkbox/CheckboxGroup.vue">
+          <metrics statements="32" coveredstatements="32" conditionals="8" coveredconditionals="8" methods="7" coveredmethods="7"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="44" type="stmt"/>
+          <line num="57" count="45" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="71" count="44" type="stmt"/>
+          <line num="77" count="1" type="stmt"/>
+          <line num="81" count="11" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="90" count="37" type="stmt"/>
+          <line num="94" count="1" type="stmt"/>
+          <line num="95" count="5" type="stmt"/>
+          <line num="98" count="5" type="stmt"/>
+          <line num="104" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="105" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="106" count="4" type="stmt"/>
+          <line num="107" count="4" type="stmt"/>
+          <line num="109" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="110" count="2" type="stmt"/>
+          <line num="112" count="2" type="stmt"/>
+          <line num="115" count="4" type="stmt"/>
+          <line num="116" count="4" type="stmt"/>
+          <line num="117" count="4" type="stmt"/>
+          <line num="120" count="5" type="stmt"/>
+          <line num="122" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="datepicker">
+        <metrics statements="269" coveredstatements="269" conditionals="97" coveredconditionals="97" methods="54" coveredmethods="54"/>
+        <file name="DatePicker.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/datepicker/DatePicker.vue">
+          <metrics statements="245" coveredstatements="245" conditionals="88" coveredconditionals="88" methods="48" coveredmethods="48"/>
+          <line num="140" count="1" type="stmt"/>
+          <line num="141" count="1" type="stmt"/>
+          <line num="142" count="1" type="stmt"/>
+          <line num="150" count="1" type="stmt"/>
+          <line num="151" count="1" type="stmt"/>
+          <line num="152" count="1" type="stmt"/>
+          <line num="174" count="1" type="stmt"/>
+          <line num="175" count="1" type="stmt"/>
+          <line num="176" count="1" type="stmt"/>
+          <line num="177" count="1" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="179" count="1" type="stmt"/>
+          <line num="180" count="1" type="stmt"/>
+          <line num="181" count="1" type="stmt"/>
+          <line num="182" count="1" type="stmt"/>
+          <line num="183" count="1" type="stmt"/>
+          <line num="186" count="1" type="stmt"/>
+          <line num="188" count="1" type="stmt"/>
+          <line num="190" count="1" type="stmt"/>
+          <line num="199" count="1" type="stmt"/>
+          <line num="200" count="64" type="stmt"/>
+          <line num="202" count="64" type="stmt"/>
+          <line num="204" count="64" type="stmt"/>
+          <line num="206" count="64" type="stmt"/>
+          <line num="210" count="64" type="stmt"/>
+          <line num="212" count="64" type="stmt"/>
+          <line num="214" count="64" type="stmt"/>
+          <line num="216" count="64" type="stmt"/>
+          <line num="218" count="64" type="stmt"/>
+          <line num="220" count="64" type="stmt"/>
+          <line num="222" count="64" type="stmt"/>
+          <line num="224" count="64" type="stmt"/>
+          <line num="226" count="64" type="stmt"/>
+          <line num="228" count="64" type="stmt"/>
+          <line num="230" count="64" type="stmt"/>
+          <line num="232" count="64" type="stmt"/>
+          <line num="234" count="64" type="stmt"/>
+          <line num="239" count="64" type="stmt"/>
+          <line num="244" count="64" type="stmt"/>
+          <line num="246" count="64" type="stmt"/>
+          <line num="248" count="64" type="stmt"/>
+          <line num="250" count="64" type="stmt"/>
+          <line num="252" count="64" type="stmt"/>
+          <line num="254" count="64" type="stmt"/>
+          <line num="256" count="64" type="stmt"/>
+          <line num="261" count="64" type="stmt"/>
+          <line num="263" count="64" type="stmt"/>
+          <line num="265" count="64" type="stmt"/>
+          <line num="267" count="1" type="stmt"/>
+          <line num="272" count="1" type="stmt"/>
+          <line num="274" count="1" type="stmt"/>
+          <line num="276" count="1" type="stmt"/>
+          <line num="278" count="1" type="stmt"/>
+          <line num="280" count="1" type="stmt"/>
+          <line num="282" count="1" type="stmt"/>
+          <line num="287" count="1" type="stmt"/>
+          <line num="292" count="1" type="stmt"/>
+          <line num="297" count="1" type="stmt"/>
+          <line num="299" count="1" type="stmt"/>
+          <line num="301" count="1" type="stmt"/>
+          <line num="303" count="1" type="stmt"/>
+          <line num="308" count="1" type="stmt"/>
+          <line num="313" count="1" type="stmt"/>
+          <line num="315" count="1" type="stmt"/>
+          <line num="317" count="1" type="stmt"/>
+          <line num="319" count="1" type="stmt"/>
+          <line num="324" count="1" type="stmt"/>
+          <line num="327" count="64" type="cond" truecount="2" falsecount="0"/>
+          <line num="331" count="64" type="stmt"/>
+          <line num="342" count="64" type="stmt"/>
+          <line num="354" count="64" type="stmt"/>
+          <line num="355" count="64" type="stmt"/>
+          <line num="357" count="64" type="stmt"/>
+          <line num="358" count="64" type="stmt"/>
+          <line num="360" count="64" type="stmt"/>
+          <line num="364" count="64" type="stmt"/>
+          <line num="365" count="64" type="stmt"/>
+          <line num="369" count="1" type="stmt"/>
+          <line num="375" count="1" type="stmt"/>
+          <line num="376" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="380" count="65" type="stmt"/>
+          <line num="384" count="65" type="cond" truecount="4" falsecount="0"/>
+          <line num="385" count="56" type="cond" truecount="2" falsecount="0"/>
+          <line num="389" count="9" type="stmt"/>
+          <line num="392" count="65" type="cond" truecount="4" falsecount="0"/>
+          <line num="393" count="56" type="cond" truecount="2" falsecount="0"/>
+          <line num="397" count="9" type="stmt"/>
+          <line num="402" count="64" type="stmt"/>
+          <line num="408" count="64" type="stmt"/>
+          <line num="412" count="64" type="cond" truecount="2" falsecount="0"/>
+          <line num="413" count="64" type="cond" truecount="2" falsecount="0"/>
+          <line num="414" count="64" type="stmt"/>
+          <line num="419" count="65" type="stmt"/>
+          <line num="425" count="65" type="stmt"/>
+          <line num="426" count="65" type="stmt"/>
+          <line num="428" count="65" type="stmt"/>
+          <line num="430" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="431" count="33" type="stmt"/>
+          <line num="439" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="440" count="8" type="stmt"/>
+          <line num="442" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="443" count="8" type="stmt"/>
+          <line num="446" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="447" count="8" type="stmt"/>
+          <line num="448" count="8" type="stmt"/>
+          <line num="449" count="8" type="stmt"/>
+          <line num="456" count="1" type="stmt"/>
+          <line num="457" count="69" type="stmt"/>
+          <line num="458" count="69" type="cond" truecount="4" falsecount="0"/>
+          <line num="460" count="28" type="cond" truecount="2" falsecount="0"/>
+          <line num="461" count="9" type="stmt"/>
+          <line num="463" count="9" type="stmt"/>
+          <line num="465" count="19" type="stmt"/>
+          <line num="468" count="41" type="stmt"/>
+          <line num="474" count="72" type="stmt"/>
+          <line num="478" count="70" type="stmt"/>
+          <line num="482" count="32" type="stmt"/>
+          <line num="483" count="32" type="stmt"/>
+          <line num="484" count="32" type="stmt"/>
+          <line num="488" count="46" type="stmt"/>
+          <line num="489" count="46" type="stmt"/>
+          <line num="490" count="46" type="stmt"/>
+          <line num="491" count="46" type="stmt"/>
+          <line num="492" count="46" type="stmt"/>
+          <line num="497" count="11" type="stmt"/>
+          <line num="498" count="11" type="stmt"/>
+          <line num="505" count="11" type="stmt"/>
+          <line num="507" count="11" type="stmt"/>
+          <line num="513" count="10" type="stmt"/>
+          <line num="514" count="10" type="stmt"/>
+          <line num="520" count="10" type="stmt"/>
+          <line num="521" count="10" type="stmt"/>
+          <line num="522" count="10" type="stmt"/>
+          <line num="523" count="10" type="stmt"/>
+          <line num="529" count="1" type="stmt"/>
+          <line num="530" count="1" type="stmt"/>
+          <line num="531" count="1" type="stmt"/>
+          <line num="539" count="1" type="stmt"/>
+          <line num="540" count="1" type="stmt"/>
+          <line num="541" count="1" type="stmt"/>
+          <line num="542" count="1" type="stmt"/>
+          <line num="547" count="10" type="stmt"/>
+          <line num="548" count="10" type="stmt"/>
+          <line num="554" count="10" type="stmt"/>
+          <line num="555" count="10" type="stmt"/>
+          <line num="556" count="10" type="stmt"/>
+          <line num="558" count="10" type="stmt"/>
+          <line num="569" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="570" count="1" type="stmt"/>
+          <line num="573" count="8" type="cond" truecount="4" falsecount="0"/>
+          <line num="574" count="1" type="stmt"/>
+          <line num="575" count="1" type="stmt"/>
+          <line num="576" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="577" count="3" type="stmt"/>
+          <line num="578" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="579" count="1" type="stmt"/>
+          <line num="580" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="581" count="1" type="stmt"/>
+          <line num="583" count="4" type="cond" truecount="4" falsecount="0"/>
+          <line num="584" count="1" type="stmt"/>
+          <line num="585" count="1" type="stmt"/>
+          <line num="588" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="589" count="6" type="stmt"/>
+          <line num="598" count="6" type="stmt"/>
+          <line num="599" count="6" type="stmt"/>
+          <line num="600" count="6" type="stmt"/>
+          <line num="603" count="6" type="stmt"/>
+          <line num="604" count="6" type="stmt"/>
+          <line num="605" count="12" type="stmt"/>
+          <line num="606" count="12" type="stmt"/>
+          <line num="608" count="6" type="cond" truecount="6" falsecount="0"/>
+          <line num="612" count="4" type="stmt"/>
+          <line num="614" count="6" type="cond" truecount="6" falsecount="0"/>
+          <line num="618" count="1" type="stmt"/>
+          <line num="625" count="1" type="stmt"/>
+          <line num="626" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="627" count="1" type="stmt"/>
+          <line num="628" count="1" type="stmt"/>
+          <line num="629" count="1" type="stmt"/>
+          <line num="632" count="7" type="stmt"/>
+          <line num="636" count="13" type="stmt"/>
+          <line num="646" count="1" type="stmt"/>
+          <line num="647" count="1" type="stmt"/>
+          <line num="651" count="1" type="stmt"/>
+          <line num="652" count="1" type="stmt"/>
+          <line num="656" count="1" type="stmt"/>
+          <line num="657" count="1" type="stmt"/>
+          <line num="661" count="2" type="stmt"/>
+          <line num="662" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="663" count="1" type="stmt"/>
+          <line num="664" count="1" type="stmt"/>
+          <line num="666" count="2" type="stmt"/>
+          <line num="670" count="5" type="stmt"/>
+          <line num="671" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="672" count="1" type="stmt"/>
+          <line num="673" count="1" type="stmt"/>
+          <line num="675" count="5" type="stmt"/>
+          <line num="679" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="680" count="4" type="stmt"/>
+          <line num="681" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="682" count="3" type="stmt"/>
+          <line num="684" count="1" type="stmt"/>
+          <line num="687" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="688" count="1" type="stmt"/>
+          <line num="689" count="1" type="stmt"/>
+          <line num="692" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="693" count="1" type="stmt"/>
+          <line num="694" count="1" type="stmt"/>
+          <line num="695" count="1" type="stmt"/>
+          <line num="700" count="1" type="stmt"/>
+          <line num="701" count="1" type="stmt"/>
+          <line num="705" count="1" type="stmt"/>
+          <line num="706" count="1" type="stmt"/>
+          <line num="710" count="3" type="stmt"/>
+          <line num="711" count="3" type="stmt"/>
+          <line num="712" count="3" type="stmt"/>
+          <line num="713" count="3" type="stmt"/>
+          <line num="714" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="715" count="1" type="stmt"/>
+          <line num="716" count="1" type="stmt"/>
+          <line num="722" count="1" type="stmt"/>
+          <line num="723" count="1" type="stmt"/>
+          <line num="724" count="1" type="stmt"/>
+          <line num="725" count="1" type="stmt"/>
+          <line num="726" count="1" type="stmt"/>
+          <line num="728" count="1" type="stmt"/>
+          <line num="730" count="1" type="stmt"/>
+          <line num="734" count="1" type="stmt"/>
+          <line num="738" count="1" type="stmt"/>
+          <line num="742" count="1" type="stmt"/>
+          <line num="743" count="64" type="stmt"/>
+          <line num="747" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="748" count="1" type="stmt"/>
+          <line num="749" count="1" type="stmt"/>
+          <line num="754" count="5" type="stmt"/>
+          <line num="758" count="1" type="stmt"/>
+          <line num="759" count="3" type="stmt"/>
+          <line num="760" count="3" type="stmt"/>
+          <line num="762" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="763" count="2" type="stmt"/>
+          <line num="765" count="1" type="stmt"/>
+          <line num="766" count="1" type="stmt"/>
+          <line num="769" count="3" type="stmt"/>
+          <line num="771" count="3" type="stmt"/>
+          <line num="775" count="1" type="stmt"/>
+        </file>
+        <file name="DatePickerTable.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/datepicker/DatePickerTable.vue">
+          <metrics statements="24" coveredstatements="24" conditionals="9" coveredconditionals="9" methods="6" coveredmethods="6"/>
+          <line num="85" count="2" type="stmt"/>
+          <line num="93" count="2" type="stmt"/>
+          <line num="100" count="2" type="stmt"/>
+          <line num="101" count="2" type="stmt"/>
+          <line num="123" count="2" type="stmt"/>
+          <line num="124" count="65" type="stmt"/>
+          <line num="126" count="65" type="stmt"/>
+          <line num="128" count="2" type="stmt"/>
+          <line num="130" count="2" type="stmt"/>
+          <line num="132" count="2" type="stmt"/>
+          <line num="134" count="2" type="stmt"/>
+          <line num="136" count="2" type="stmt"/>
+          <line num="138" count="2" type="stmt"/>
+          <line num="140" count="2" type="stmt"/>
+          <line num="143" count="2" type="stmt"/>
+          <line num="146" count="10" type="stmt"/>
+          <line num="150" count="214" type="cond" truecount="2" falsecount="0"/>
+          <line num="151" count="43" type="cond" truecount="3" falsecount="0"/>
+          <line num="158" count="208" type="stmt"/>
+          <line num="164" count="2" type="stmt"/>
+          <line num="165" count="143" type="stmt"/>
+          <line num="169" count="2" type="stmt"/>
+          <line num="180" count="1" type="stmt"/>
+          <line num="189" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="empty">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Empty.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/empty/Empty.vue">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="18" count="5" type="stmt"/>
+          <line num="23" count="5" type="stmt"/>
+          <line num="26" count="10" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="5" type="stmt"/>
+          <line num="33" count="5" type="stmt"/>
+        </file>
+      </package>
+      <package name="grid">
+        <metrics statements="50" coveredstatements="50" conditionals="4" coveredconditionals="4" methods="10" coveredmethods="10"/>
+        <file name="Col.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/grid/Col.vue">
+          <metrics statements="28" coveredstatements="28" conditionals="0" coveredconditionals="0" methods="6" coveredmethods="6"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="7" count="1" type="stmt"/>
+          <line num="17" count="2" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="20" count="4" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="39" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="58" count="4" type="stmt"/>
+          <line num="59" count="4" type="stmt"/>
+          <line num="61" count="4" type="stmt"/>
+          <line num="70" count="60" type="stmt"/>
+          <line num="72" count="6" type="stmt"/>
+          <line num="76" count="6" type="stmt"/>
+        </file>
+        <file name="Row.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/grid/Row.vue">
+          <metrics statements="22" coveredstatements="22" conditionals="4" coveredconditionals="4" methods="4" coveredmethods="4"/>
+          <line num="3" count="1" type="stmt"/>
+          <line num="6" count="1" type="stmt"/>
+          <line num="15" count="2" type="stmt"/>
+          <line num="16" count="4" type="stmt"/>
+          <line num="18" count="4" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="25" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="31" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="5" type="stmt"/>
+          <line num="39" count="5" type="stmt"/>
+          <line num="41" count="5" type="stmt"/>
+          <line num="44" count="4" type="stmt"/>
+          <line num="53" count="4" type="stmt"/>
+          <line num="54" count="4" type="stmt"/>
+          <line num="55" count="4" type="stmt"/>
+          <line num="56" count="4" type="stmt"/>
+          <line num="57" count="4" type="stmt"/>
+          <line num="61" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="icon">
+        <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <file name="Icon.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/icon/Icon.vue">
+          <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+          <line num="28" count="16" type="stmt"/>
+          <line num="31" count="16" type="stmt"/>
+          <line num="34" count="32" type="stmt"/>
+          <line num="35" count="279" type="stmt"/>
+          <line num="37" count="16" type="stmt"/>
+          <line num="39" count="16" type="stmt"/>
+          <line num="44" count="16" type="stmt"/>
+        </file>
+      </package>
+      <package name="input">
+        <metrics statements="36" coveredstatements="36" conditionals="14" coveredconditionals="14" methods="13" coveredmethods="13"/>
+        <file name="Input.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/input/Input.vue">
+          <metrics statements="36" coveredstatements="36" conditionals="14" coveredconditionals="14" methods="13" coveredmethods="13"/>
+          <line num="62" count="5" type="stmt"/>
+          <line num="69" count="5" type="stmt"/>
+          <line num="70" count="5" type="stmt"/>
+          <line num="77" count="5" type="stmt"/>
+          <line num="78" count="68" type="stmt"/>
+          <line num="80" count="68" type="stmt"/>
+          <line num="82" count="68" type="stmt"/>
+          <line num="84" count="5" type="stmt"/>
+          <line num="86" count="5" type="stmt"/>
+          <line num="88" count="5" type="stmt"/>
+          <line num="90" count="5" type="stmt"/>
+          <line num="95" count="5" type="stmt"/>
+          <line num="97" count="5" type="stmt"/>
+          <line num="99" count="5" type="stmt"/>
+          <line num="101" count="5" type="stmt"/>
+          <line num="105" count="69" type="stmt"/>
+          <line num="106" count="5" type="stmt"/>
+          <line num="111" count="5" type="stmt"/>
+          <line num="114" count="67" type="stmt"/>
+          <line num="122" count="67" type="stmt"/>
+          <line num="133" count="67" type="stmt"/>
+          <line num="143" count="3" type="stmt"/>
+          <line num="151" count="68" type="stmt"/>
+          <line num="155" count="68" type="stmt"/>
+          <line num="159" count="68" type="cond" truecount="2" falsecount="0"/>
+          <line num="163" count="68" type="stmt"/>
+          <line num="167" count="69" type="stmt"/>
+          <line num="168" count="69" type="cond" truecount="2" falsecount="0"/>
+          <line num="169" count="69" type="cond" truecount="2" falsecount="0"/>
+          <line num="170" count="69" type="cond" truecount="2" falsecount="0"/>
+          <line num="171" count="69" type="stmt"/>
+          <line num="175" count="5" type="stmt"/>
+          <line num="176" count="1" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="179" count="1" type="stmt"/>
+          <line num="181" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="inputnumber">
+        <metrics statements="59" coveredstatements="59" conditionals="12" coveredconditionals="12" methods="17" coveredmethods="17"/>
+        <file name="InputNumber.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/inputnumber/InputNumber.vue">
+          <metrics statements="59" coveredstatements="59" conditionals="12" coveredconditionals="12" methods="17" coveredmethods="17"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="67" count="2" type="stmt"/>
+          <line num="68" count="36" type="stmt"/>
+          <line num="70" count="36" type="stmt"/>
+          <line num="72" count="36" type="stmt"/>
+          <line num="74" count="36" type="stmt"/>
+          <line num="76" count="36" type="stmt"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="94" count="1" type="stmt"/>
+          <line num="99" count="1" type="stmt"/>
+          <line num="104" count="1" type="stmt"/>
+          <line num="106" count="1" type="stmt"/>
+          <line num="108" count="1" type="stmt"/>
+          <line num="113" count="1" type="stmt"/>
+          <line num="117" count="65" type="stmt"/>
+          <line num="118" count="1" type="stmt"/>
+          <line num="122" count="108" type="stmt"/>
+          <line num="123" count="1" type="stmt"/>
+          <line num="128" count="1" type="stmt"/>
+          <line num="131" count="57" type="stmt"/>
+          <line num="135" count="57" type="stmt"/>
+          <line num="139" count="13" type="stmt"/>
+          <line num="140" count="13" type="stmt"/>
+          <line num="154" count="13" type="cond" truecount="2" falsecount="0"/>
+          <line num="158" count="58" type="cond" truecount="2" falsecount="0"/>
+          <line num="159" count="58" type="stmt"/>
+          <line num="163" count="36" type="stmt"/>
+          <line num="167" count="39" type="stmt"/>
+          <line num="168" count="39" type="stmt"/>
+          <line num="169" count="39" type="stmt"/>
+          <line num="173" count="1" type="stmt"/>
+          <line num="174" count="2" type="stmt"/>
+          <line num="176" count="2" type="stmt"/>
+          <line num="181" count="2" type="stmt"/>
+          <line num="182" count="2" type="stmt"/>
+          <line num="184" count="2" type="stmt"/>
+          <line num="188" count="1" type="stmt"/>
+          <line num="189" count="2" type="stmt"/>
+          <line num="193" count="1" type="stmt"/>
+          <line num="197" count="1" type="stmt"/>
+          <line num="201" count="3" type="stmt"/>
+          <line num="202" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="203" count="1" type="stmt"/>
+          <line num="204" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="205" count="1" type="stmt"/>
+          <line num="207" count="3" type="stmt"/>
+          <line num="208" count="3" type="stmt"/>
+          <line num="212" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="213" count="3" type="stmt"/>
+          <line num="224" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="225" count="1" type="stmt"/>
+          <line num="236" count="1" type="stmt"/>
+          <line num="237" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="link">
+        <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <file name="Link.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/link/Link.vue">
+          <metrics statements="11" coveredstatements="11" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+          <line num="48" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="79" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="modal">
+        <metrics statements="74" coveredstatements="74" conditionals="15" coveredconditionals="15" methods="18" coveredmethods="18"/>
+        <file name="Modal.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/modal/Modal.vue">
+          <metrics statements="74" coveredstatements="74" conditionals="15" coveredconditionals="15" methods="18" coveredmethods="18"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="83" count="1" type="stmt"/>
+          <line num="84" count="100" type="stmt"/>
+          <line num="86" count="100" type="stmt"/>
+          <line num="88" count="100" type="stmt"/>
+          <line num="90" count="100" type="stmt"/>
+          <line num="92" count="100" type="stmt"/>
+          <line num="94" count="100" type="stmt"/>
+          <line num="96" count="1" type="stmt"/>
+          <line num="98" count="1" type="stmt"/>
+          <line num="103" count="1" type="stmt"/>
+          <line num="105" count="1" type="stmt"/>
+          <line num="110" count="1" type="stmt"/>
+          <line num="112" count="1" type="stmt"/>
+          <line num="117" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="132" count="1" type="stmt"/>
+          <line num="136" count="112" type="stmt"/>
+          <line num="137" count="1" type="stmt"/>
+          <line num="139" count="1" type="stmt"/>
+          <line num="144" count="1" type="stmt"/>
+          <line num="149" count="1" type="stmt"/>
+          <line num="154" count="1" type="stmt"/>
+          <line num="156" count="1" type="stmt"/>
+          <line num="161" count="1" type="stmt"/>
+          <line num="166" count="1" type="stmt"/>
+          <line num="168" count="1" type="stmt"/>
+          <line num="173" count="1" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="180" count="1" type="stmt"/>
+          <line num="182" count="1" type="stmt"/>
+          <line num="184" count="1" type="stmt"/>
+          <line num="187" count="100" type="stmt"/>
+          <line num="191" count="100" type="stmt"/>
+          <line num="195" count="102" type="stmt"/>
+          <line num="199" count="100" type="stmt"/>
+          <line num="200" count="100" type="stmt"/>
+          <line num="204" count="1" type="stmt"/>
+          <line num="208" count="101" type="cond" truecount="2" falsecount="0"/>
+          <line num="213" count="1" type="stmt"/>
+          <line num="214" count="101" type="stmt"/>
+          <line num="215" count="101" type="stmt"/>
+          <line num="216" count="101" type="stmt"/>
+          <line num="220" count="1" type="stmt"/>
+          <line num="221" count="1" type="stmt"/>
+          <line num="222" count="1" type="stmt"/>
+          <line num="223" count="1" type="stmt"/>
+          <line num="224" count="1" type="stmt"/>
+          <line num="228" count="1" type="stmt"/>
+          <line num="229" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="230" count="1" type="stmt"/>
+          <line num="232" count="2" type="stmt"/>
+          <line num="236" count="1" type="stmt"/>
+          <line num="237" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="238" count="1" type="stmt"/>
+          <line num="239" count="1" type="stmt"/>
+          <line num="240" count="1" type="stmt"/>
+          <line num="244" count="1" type="stmt"/>
+          <line num="246" count="2" type="stmt"/>
+          <line num="251" count="100" type="stmt"/>
+          <line num="256" count="1" type="stmt"/>
+          <line num="257" count="1" type="stmt"/>
+          <line num="261" count="1" type="cond" truecount="1" falsecount="0"/>
+          <line num="262" count="3" type="cond" truecount="6" falsecount="0"/>
+          <line num="263" count="1" type="stmt"/>
+          <line num="265" count="3" type="stmt"/>
+          <line num="269" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="270" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="page">
+        <metrics statements="70" coveredstatements="70" conditionals="13" coveredconditionals="13" methods="21" coveredmethods="21"/>
+        <file name="Page.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/page/Page.vue">
+          <metrics statements="54" coveredstatements="54" conditionals="13" coveredconditionals="13" methods="18" coveredmethods="18"/>
+          <line num="154" count="1" type="stmt"/>
+          <line num="162" count="1" type="stmt"/>
+          <line num="163" count="1" type="stmt"/>
+          <line num="164" count="1" type="stmt"/>
+          <line num="165" count="1" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="179" count="25" type="stmt"/>
+          <line num="181" count="25" type="stmt"/>
+          <line num="183" count="1" type="stmt"/>
+          <line num="185" count="1" type="stmt"/>
+          <line num="187" count="1" type="stmt"/>
+          <line num="189" count="1" type="stmt"/>
+          <line num="194" count="1" type="stmt"/>
+          <line num="199" count="1" type="stmt"/>
+          <line num="204" count="1" type="stmt"/>
+          <line num="206" count="1" type="stmt"/>
+          <line num="211" count="1" type="stmt"/>
+          <line num="217" count="1" type="stmt"/>
+          <line num="220" count="25" type="stmt"/>
+          <line num="224" count="20" type="cond" truecount="2" falsecount="0"/>
+          <line num="228" count="25" type="stmt"/>
+          <line num="232" count="31" type="stmt"/>
+          <line num="236" count="31" type="stmt"/>
+          <line num="240" count="20" type="cond" truecount="2" falsecount="0"/>
+          <line num="242" count="20" type="stmt"/>
+          <line num="244" count="20" type="stmt"/>
+          <line num="246" count="20" type="stmt"/>
+          <line num="247" count="20" type="stmt"/>
+          <line num="251" count="22" type="stmt"/>
+          <line num="253" count="22" type="stmt"/>
+          <line num="254" count="22" type="cond" truecount="2" falsecount="0"/>
+          <line num="258" count="22" type="stmt"/>
+          <line num="259" count="120" type="stmt"/>
+          <line num="261" count="22" type="stmt"/>
+          <line num="265" count="22" type="cond" truecount="2" falsecount="0"/>
+          <line num="273" count="22" type="stmt"/>
+          <line num="285" count="25" type="stmt"/>
+          <line num="289" count="31" type="cond" truecount="2" falsecount="0"/>
+          <line num="290" count="31" type="stmt"/>
+          <line num="292" count="31" type="cond" truecount="2" falsecount="0"/>
+          <line num="293" count="3" type="stmt"/>
+          <line num="294" count="3" type="stmt"/>
+          <line num="295" count="3" type="stmt"/>
+          <line num="300" count="1" type="stmt"/>
+          <line num="301" count="4" type="stmt"/>
+          <line num="305" count="1" type="stmt"/>
+          <line num="309" count="1" type="stmt"/>
+          <line num="313" count="1" type="stmt"/>
+          <line num="319" count="1" type="stmt"/>
+          <line num="320" count="1" type="stmt"/>
+          <line num="321" count="1" type="stmt"/>
+          <line num="322" count="1" type="stmt"/>
+          <line num="327" count="1" type="stmt"/>
+          <line num="328" count="2" type="stmt"/>
+        </file>
+        <file name="PageJump.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/page/PageJump.vue">
+          <metrics statements="16" coveredstatements="16" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="3"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="38" count="1" type="stmt"/>
+          <line num="40" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="55" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="59" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="popconfirm">
+        <metrics statements="62" coveredstatements="62" conditionals="10" coveredconditionals="10" methods="18" coveredmethods="18"/>
+        <file name="Popconfirm.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/popconfirm/Popconfirm.vue">
+          <metrics statements="62" coveredstatements="62" conditionals="10" coveredconditionals="10" methods="18" coveredmethods="18"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="77" count="1" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="86" count="1" type="stmt"/>
+          <line num="101" count="1" type="stmt"/>
+          <line num="102" count="1" type="stmt"/>
+          <line num="104" count="1" type="stmt"/>
+          <line num="106" count="1" type="stmt"/>
+          <line num="108" count="1" type="stmt"/>
+          <line num="110" count="1" type="stmt"/>
+          <line num="115" count="1" type="stmt"/>
+          <line num="117" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="132" count="1" type="stmt"/>
+          <line num="137" count="1" type="stmt"/>
+          <line num="142" count="1" type="stmt"/>
+          <line num="144" count="1" type="stmt"/>
+          <line num="149" count="1" type="stmt"/>
+          <line num="150" count="1" type="stmt"/>
+          <line num="153" count="1" type="stmt"/>
+          <line num="158" count="1" type="stmt"/>
+          <line num="163" count="1" type="stmt"/>
+          <line num="168" count="1" type="stmt"/>
+          <line num="170" count="1" type="stmt"/>
+          <line num="173" count="1" type="stmt"/>
+          <line num="184" count="1" type="stmt"/>
+          <line num="202" count="1" type="stmt"/>
+          <line num="203" count="1" type="stmt"/>
+          <line num="207" count="1" type="stmt"/>
+          <line num="211" count="4" type="stmt"/>
+          <line num="215" count="4" type="stmt"/>
+          <line num="219" count="3" type="stmt"/>
+          <line num="223" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="224" count="1" type="stmt"/>
+          <line num="229" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="230" count="4" type="stmt"/>
+          <line num="231" count="4" type="stmt"/>
+          <line num="233" count="7" type="cond" truecount="4" falsecount="0"/>
+          <line num="234" count="2" type="stmt"/>
+          <line num="235" count="2" type="stmt"/>
+          <line num="236" count="2" type="stmt"/>
+          <line num="241" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="242" count="1" type="stmt"/>
+          <line num="247" count="1" type="stmt"/>
+          <line num="248" count="1" type="stmt"/>
+          <line num="249" count="1" type="stmt"/>
+          <line num="255" count="3" type="stmt"/>
+          <line num="256" count="3" type="stmt"/>
+          <line num="257" count="3" type="stmt"/>
+          <line num="261" count="1" type="stmt"/>
+          <line num="265" count="1" type="stmt"/>
+          <line num="266" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="popover">
+        <metrics statements="68" coveredstatements="68" conditionals="26" coveredconditionals="26" methods="21" coveredmethods="21"/>
+        <file name="Popover.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/popover/Popover.vue">
+          <metrics statements="68" coveredstatements="68" conditionals="26" coveredconditionals="26" methods="21" coveredmethods="21"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="61" count="1" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="83" count="2" type="stmt"/>
+          <line num="84" count="4" type="stmt"/>
+          <line num="86" count="4" type="stmt"/>
+          <line num="88" count="4" type="stmt"/>
+          <line num="90" count="1" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="100" count="1" type="stmt"/>
+          <line num="105" count="1" type="stmt"/>
+          <line num="110" count="1" type="stmt"/>
+          <line num="115" count="1" type="stmt"/>
+          <line num="120" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+          <line num="124" count="1" type="stmt"/>
+          <line num="126" count="1" type="stmt"/>
+          <line num="128" count="1" type="stmt"/>
+          <line num="130" count="1" type="stmt"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="137" count="1" type="stmt"/>
+          <line num="141" count="2" type="stmt"/>
+          <line num="147" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="151" count="6" type="stmt"/>
+          <line num="152" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="153" count="1" type="stmt"/>
+          <line num="155" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="156" count="1" type="stmt"/>
+          <line num="158" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="159" count="1" type="stmt"/>
+          <line num="161" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="162" count="1" type="stmt"/>
+          <line num="164" count="6" type="stmt"/>
+          <line num="168" count="5" type="stmt"/>
+          <line num="179" count="5" type="stmt"/>
+          <line num="197" count="4" type="stmt"/>
+          <line num="201" count="2" type="stmt"/>
+          <line num="205" count="4" type="stmt"/>
+          <line num="209" count="4" type="stmt"/>
+          <line num="213" count="1" type="stmt"/>
+          <line num="214" count="1" type="stmt"/>
+          <line num="218" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="219" count="1" type="stmt"/>
+          <line num="224" count="1" type="stmt"/>
+          <line num="225" count="1" type="stmt"/>
+          <line num="230" count="4" type="stmt"/>
+          <line num="231" count="4" type="stmt"/>
+          <line num="232" count="3" type="stmt"/>
+          <line num="237" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="238" count="4" type="stmt"/>
+          <line num="239" count="4" type="stmt"/>
+          <line num="241" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="242" count="3" type="stmt"/>
+          <line num="243" count="3" type="stmt"/>
+          <line num="244" count="3" type="stmt"/>
+          <line num="249" count="1" type="stmt"/>
+          <line num="253" count="1" type="stmt"/>
+          <line num="254" count="1" type="stmt"/>
+          <line num="258" count="1" type="stmt"/>
+          <line num="262" count="1" type="stmt"/>
+          <line num="263" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="progress">
+        <metrics statements="104" coveredstatements="104" conditionals="26" coveredconditionals="26" methods="29" coveredmethods="29"/>
+        <file name="Progress.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/progress/Progress.vue">
+          <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="5" coveredmethods="5"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="64" count="1" type="stmt"/>
+          <line num="65" count="4" type="stmt"/>
+          <line num="67" count="4" type="stmt"/>
+          <line num="69" count="4" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="86" count="1" type="stmt"/>
+          <line num="91" count="1" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+          <line num="102" count="1" type="stmt"/>
+          <line num="104" count="1" type="stmt"/>
+          <line num="107" count="4" type="stmt"/>
+          <line num="111" count="4" type="stmt"/>
+          <line num="115" count="4" type="stmt"/>
+          <line num="121" count="1" type="stmt"/>
+          <line num="122" count="5" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="ProgressCircle.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/progress/ProgressCircle.vue">
+          <metrics statements="33" coveredstatements="33" conditionals="12" coveredconditionals="12" methods="10" coveredmethods="10"/>
+          <line num="31" count="4" type="stmt"/>
+          <line num="37" count="4" type="stmt"/>
+          <line num="43" count="4" type="stmt"/>
+          <line num="46" count="8" type="stmt"/>
+          <line num="47" count="36" type="stmt"/>
+          <line num="49" count="36" type="stmt"/>
+          <line num="51" count="4" type="stmt"/>
+          <line num="53" count="4" type="stmt"/>
+          <line num="58" count="4" type="stmt"/>
+          <line num="60" count="4" type="stmt"/>
+          <line num="62" count="4" type="stmt"/>
+          <line num="64" count="4" type="stmt"/>
+          <line num="69" count="4" type="stmt"/>
+          <line num="72" count="36" type="stmt"/>
+          <line num="76" count="36" type="cond" truecount="4" falsecount="0"/>
+          <line num="77" count="12" type="stmt"/>
+          <line num="79" count="24" type="stmt"/>
+          <line num="83" count="36" type="stmt"/>
+          <line num="84" count="36" type="stmt"/>
+          <line num="94" count="36" type="stmt"/>
+          <line num="98" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="102" count="36" type="stmt"/>
+          <line num="103" count="36" type="stmt"/>
+          <line num="107" count="36" type="stmt"/>
+          <line num="114" count="40" type="stmt"/>
+          <line num="122" count="38" type="stmt"/>
+          <line num="124" count="38" type="cond" truecount="2" falsecount="0"/>
+          <line num="125" count="6" type="stmt"/>
+          <line num="126" count="32" type="cond" truecount="2" falsecount="0"/>
+          <line num="127" count="7" type="stmt"/>
+          <line num="128" count="25" type="cond" truecount="2" falsecount="0"/>
+          <line num="129" count="7" type="stmt"/>
+          <line num="132" count="38" type="stmt"/>
+        </file>
+        <file name="ProgressLine.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/progress/ProgressLine.vue">
+          <metrics statements="27" coveredstatements="27" conditionals="10" coveredconditionals="10" methods="7" coveredmethods="7"/>
+          <line num="40" count="3" type="stmt"/>
+          <line num="46" count="3" type="stmt"/>
+          <line num="47" count="3" type="stmt"/>
+          <line num="48" count="3" type="stmt"/>
+          <line num="53" count="3" type="stmt"/>
+          <line num="61" count="3" type="stmt"/>
+          <line num="62" count="25" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="66" count="3" type="stmt"/>
+          <line num="68" count="3" type="stmt"/>
+          <line num="70" count="3" type="stmt"/>
+          <line num="72" count="3" type="stmt"/>
+          <line num="74" count="3" type="stmt"/>
+          <line num="76" count="3" type="stmt"/>
+          <line num="78" count="3" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="85" count="25" type="stmt"/>
+          <line num="92" count="27" type="stmt"/>
+          <line num="94" count="27" type="cond" truecount="2" falsecount="0"/>
+          <line num="95" count="5" type="stmt"/>
+          <line num="96" count="22" type="cond" truecount="2" falsecount="0"/>
+          <line num="97" count="6" type="stmt"/>
+          <line num="98" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="99" count="6" type="stmt"/>
+          <line num="102" count="27" type="stmt"/>
+          <line num="108" count="26" type="stmt"/>
+          <line num="114" count="30" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="ProgressText.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/progress/ProgressText.vue">
+          <metrics statements="21" coveredstatements="21" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+          <line num="33" count="3" type="stmt"/>
+          <line num="39" count="3" type="stmt"/>
+          <line num="40" count="3" type="stmt"/>
+          <line num="41" count="3" type="stmt"/>
+          <line num="42" count="3" type="stmt"/>
+          <line num="48" count="3" type="stmt"/>
+          <line num="50" count="3" type="stmt"/>
+          <line num="59" count="3" type="stmt"/>
+          <line num="60" count="4" type="stmt"/>
+          <line num="62" count="4" type="stmt"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="69" count="3" type="stmt"/>
+          <line num="71" count="3" type="stmt"/>
+          <line num="76" count="3" type="stmt"/>
+          <line num="78" count="3" type="stmt"/>
+          <line num="82" count="3" type="stmt"/>
+          <line num="83" count="3" type="stmt"/>
+          <line num="86" count="2" type="stmt"/>
+          <line num="93" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="97" count="3" type="stmt"/>
+          <line num="101" count="4" type="stmt"/>
+        </file>
+      </package>
+      <package name="radio">
+        <metrics statements="69" coveredstatements="69" conditionals="19" coveredconditionals="19" methods="19" coveredmethods="19"/>
+        <file name="Radio.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/radio/Radio.vue">
+          <metrics statements="45" coveredstatements="45" conditionals="19" coveredconditionals="19" methods="11" coveredmethods="11"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="64" count="2" type="stmt"/>
+          <line num="65" count="30" type="stmt"/>
+          <line num="67" count="30" type="stmt"/>
+          <line num="69" count="30" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="82" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="86" count="1" type="stmt"/>
+          <line num="88" count="1" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="94" count="1" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+          <line num="102" count="1" type="stmt"/>
+          <line num="105" count="31" type="stmt"/>
+          <line num="106" count="31" type="stmt"/>
+          <line num="108" count="31" type="cond" truecount="4" falsecount="0"/>
+          <line num="109" count="1" type="stmt"/>
+          <line num="112" count="31" type="cond" truecount="4" falsecount="0"/>
+          <line num="113" count="6" type="stmt"/>
+          <line num="116" count="31" type="stmt"/>
+          <line num="120" count="30" type="stmt"/>
+          <line num="122" count="30" type="cond" truecount="2" falsecount="0"/>
+          <line num="123" count="6" type="stmt"/>
+          <line num="126" count="30" type="stmt"/>
+          <line num="130" count="30" type="stmt"/>
+          <line num="132" count="30" type="cond" truecount="4" falsecount="0"/>
+          <line num="133" count="6" type="stmt"/>
+          <line num="136" count="30" type="stmt"/>
+          <line num="140" count="30" type="stmt"/>
+          <line num="147" count="30" type="stmt"/>
+          <line num="151" count="1" type="stmt"/>
+          <line num="152" count="3" type="cond" truecount="5" falsecount="0"/>
+          <line num="153" count="2" type="stmt"/>
+          <line num="158" count="2" type="stmt"/>
+          <line num="159" count="2" type="stmt"/>
+          <line num="160" count="2" type="stmt"/>
+          <line num="163" count="1" type="stmt"/>
+          <line num="167" count="1" type="stmt"/>
+          <line num="168" count="2" type="stmt"/>
+          <line num="175" count="2" type="stmt"/>
+          <line num="177" count="2" type="stmt"/>
+        </file>
+        <file name="RadioGroup.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/radio/RadioGroup.vue">
+          <metrics statements="24" coveredstatements="24" conditionals="0" coveredconditionals="0" methods="8" coveredmethods="8"/>
+          <line num="20" count="1" type="stmt"/>
+          <line num="27" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="12" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="53" count="6" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="58" count="12" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="75" count="1" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="84" count="1" type="stmt"/>
+          <line num="89" count="1" type="stmt"/>
+          <line num="92" count="6" type="stmt"/>
+          <line num="96" count="1" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+          <line num="101" count="1" type="stmt"/>
+          <line num="102" count="1" type="stmt"/>
+          <line num="103" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="select">
+        <metrics statements="202" coveredstatements="202" conditionals="76" coveredconditionals="76" methods="60" coveredmethods="60"/>
+        <file name="Option.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/select/Option.vue">
+          <metrics statements="23" coveredstatements="23" conditionals="2" coveredconditionals="2" methods="7" coveredmethods="7"/>
+          <line num="8" count="4" type="stmt"/>
+          <line num="15" count="4" type="stmt"/>
+          <line num="18" count="8" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="4" type="stmt"/>
+          <line num="23" count="4" type="stmt"/>
+          <line num="25" count="4" type="stmt"/>
+          <line num="27" count="4" type="stmt"/>
+          <line num="29" count="4" type="stmt"/>
+          <line num="31" count="4" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="36" count="4" type="stmt"/>
+          <line num="41" count="4" type="stmt"/>
+          <line num="46" count="4" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="53" count="1" type="stmt"/>
+          <line num="62" count="4" type="stmt"/>
+          <line num="63" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="77" count="4" type="stmt"/>
+          <line num="78" count="1" type="cond" truecount="2" falsecount="0"/>
+        </file>
+        <file name="Select.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/select/Select.vue">
+          <metrics statements="179" coveredstatements="179" conditionals="74" coveredconditionals="74" methods="53" coveredmethods="53"/>
+          <line num="107" count="1" type="stmt"/>
+          <line num="114" count="1" type="stmt"/>
+          <line num="115" count="1" type="stmt"/>
+          <line num="116" count="1" type="stmt"/>
+          <line num="117" count="1" type="stmt"/>
+          <line num="118" count="1" type="stmt"/>
+          <line num="119" count="1" type="stmt"/>
+          <line num="120" count="1" type="stmt"/>
+          <line num="126" count="1" type="stmt"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="130" count="1" type="stmt"/>
+          <line num="131" count="1" type="stmt"/>
+          <line num="132" count="1" type="stmt"/>
+          <line num="134" count="1" type="stmt"/>
+          <line num="136" count="1" type="stmt"/>
+          <line num="143" count="1" type="stmt"/>
+          <line num="144" count="146" type="stmt"/>
+          <line num="146" count="146" type="stmt"/>
+          <line num="148" count="146" type="stmt"/>
+          <line num="150" count="146" type="stmt"/>
+          <line num="152" count="146" type="stmt"/>
+          <line num="154" count="146" type="stmt"/>
+          <line num="156" count="146" type="stmt"/>
+          <line num="158" count="146" type="stmt"/>
+          <line num="160" count="146" type="stmt"/>
+          <line num="162" count="146" type="stmt"/>
+          <line num="164" count="146" type="stmt"/>
+          <line num="166" count="1" type="stmt"/>
+          <line num="170" count="130" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="175" count="146" type="stmt"/>
+          <line num="176" count="1" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="180" count="1" type="stmt"/>
+          <line num="182" count="1" type="stmt"/>
+          <line num="187" count="1" type="stmt"/>
+          <line num="192" count="1" type="stmt"/>
+          <line num="197" count="1" type="stmt"/>
+          <line num="199" count="1" type="stmt"/>
+          <line num="201" count="1" type="stmt"/>
+          <line num="203" count="1" type="stmt"/>
+          <line num="205" count="1" type="stmt"/>
+          <line num="210" count="1" type="stmt"/>
+          <line num="215" count="1" type="stmt"/>
+          <line num="220" count="1" type="stmt"/>
+          <line num="225" count="1" type="stmt"/>
+          <line num="226" count="1" type="stmt"/>
+          <line num="227" count="1" type="stmt"/>
+          <line num="231" count="1" type="stmt"/>
+          <line num="233" count="1" type="stmt"/>
+          <line num="238" count="1" type="stmt"/>
+          <line num="243" count="1" type="stmt"/>
+          <line num="248" count="1" type="stmt"/>
+          <line num="253" count="1" type="stmt"/>
+          <line num="256" count="146" type="stmt"/>
+          <line num="260" count="4" type="stmt"/>
+          <line num="264" count="146" type="stmt"/>
+          <line num="268" count="146" type="stmt"/>
+          <line num="277" count="148" type="stmt"/>
+          <line num="283" count="49" type="stmt"/>
+          <line num="289" count="146" type="stmt"/>
+          <line num="290" count="146" type="cond" truecount="2" falsecount="0"/>
+          <line num="291" count="49" type="cond" truecount="2" falsecount="0"/>
+          <line num="293" count="146" type="stmt"/>
+          <line num="297" count="65" type="stmt"/>
+          <line num="298" count="65" type="stmt"/>
+          <line num="300" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="301" count="32" type="stmt"/>
+          <line num="306" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="307" count="65" type="cond" truecount="5" falsecount="0"/>
+          <line num="308" count="98" type="stmt"/>
+          <line num="310" count="98" type="cond" truecount="2" falsecount="0"/>
+          <line num="315" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="316" count="65" type="cond" truecount="2" falsecount="0"/>
+          <line num="318" count="65" type="cond" truecount="5" falsecount="0"/>
+          <line num="324" count="146" type="stmt"/>
+          <line num="328" count="1" type="stmt"/>
+          <line num="332" count="1" type="stmt"/>
+          <line num="336" count="2" type="stmt"/>
+          <line num="338" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="339" count="1" type="stmt"/>
+          <line num="341" count="1" type="stmt"/>
+          <line num="346" count="9" type="stmt"/>
+          <line num="350" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="352" count="4" type="stmt"/>
+          <line num="357" count="1" type="stmt"/>
+          <line num="361" count="5" type="stmt"/>
+          <line num="363" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="364" count="4" type="stmt"/>
+          <line num="366" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="367" count="1" type="stmt"/>
+          <line num="373" count="6" type="stmt"/>
+          <line num="377" count="2" type="stmt"/>
+          <line num="378" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="379" count="1" type="stmt"/>
+          <line num="384" count="2" type="stmt"/>
+          <line num="385" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="386" count="1" type="stmt"/>
+          <line num="391" count="1" type="stmt"/>
+          <line num="392" count="1" type="stmt"/>
+          <line num="393" count="1" type="stmt"/>
+          <line num="394" count="1" type="stmt"/>
+          <line num="395" count="1" type="stmt"/>
+          <line num="400" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="401" count="2" type="stmt"/>
+          <line num="402" count="2" type="stmt"/>
+          <line num="403" count="2" type="stmt"/>
+          <line num="404" count="2" type="stmt"/>
+          <line num="405" count="2" type="stmt"/>
+          <line num="406" count="2" type="stmt"/>
+          <line num="407" count="2" type="stmt"/>
+          <line num="408" count="2" type="stmt"/>
+          <line num="409" count="2" type="stmt"/>
+          <line num="410" count="2" type="stmt"/>
+          <line num="417" count="1" type="stmt"/>
+          <line num="421" count="1" type="stmt"/>
+          <line num="422" count="6" type="stmt"/>
+          <line num="425" count="6" type="stmt"/>
+          <line num="427" count="11" type="cond" truecount="2" falsecount="0"/>
+          <line num="432" count="6" type="cond" truecount="2" falsecount="0"/>
+          <line num="435" count="6" type="stmt"/>
+          <line num="441" count="6" type="stmt"/>
+          <line num="442" count="6" type="stmt"/>
+          <line num="443" count="6" type="stmt"/>
+          <line num="444" count="6" type="stmt"/>
+          <line num="445" count="6" type="stmt"/>
+          <line num="446" count="6" type="stmt"/>
+          <line num="449" count="6" type="stmt"/>
+          <line num="453" count="1" type="stmt"/>
+          <line num="454" count="6" type="stmt"/>
+          <line num="459" count="1" type="stmt"/>
+          <line num="461" count="1" type="stmt"/>
+          <line num="466" count="1" type="stmt"/>
+          <line num="468" count="1" type="stmt"/>
+          <line num="472" count="1" type="stmt"/>
+          <line num="476" count="3" type="stmt"/>
+          <line num="477" count="3" type="stmt"/>
+          <line num="478" count="5" type="stmt"/>
+          <line num="481" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="482" count="2" type="stmt"/>
+          <line num="484" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="485" count="2" type="stmt"/>
+          <line num="487" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="488" count="2" type="stmt"/>
+          <line num="490" count="3" type="stmt"/>
+          <line num="491" count="3" type="stmt"/>
+          <line num="492" count="3" type="stmt"/>
+          <line num="496" count="1" type="stmt"/>
+          <line num="497" count="1" type="stmt"/>
+          <line num="498" count="1" type="stmt"/>
+          <line num="499" count="1" type="stmt"/>
+          <line num="501" count="1" type="stmt"/>
+          <line num="504" count="1" type="stmt"/>
+          <line num="508" count="1" type="stmt"/>
+          <line num="509" count="2" type="stmt"/>
+          <line num="510" count="2" type="stmt"/>
+          <line num="512" count="2" type="stmt"/>
+          <line num="516" count="1" type="stmt"/>
+          <line num="517" count="1" type="stmt"/>
+          <line num="521" count="3" type="stmt"/>
+          <line num="523" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="524" count="1" type="stmt"/>
+          <line num="528" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="529" count="2" type="stmt"/>
+          <line num="540" count="2" type="stmt"/>
+          <line num="542" count="3" type="stmt"/>
+          <line num="543" count="3" type="stmt"/>
+          <line num="550" count="6" type="cond" truecount="4" falsecount="0"/>
+          <line num="557" count="2" type="stmt"/>
+          <line num="563" count="3" type="stmt"/>
+          <line num="565" count="3" type="cond" truecount="5" falsecount="0"/>
+          <line num="566" count="2" type="stmt"/>
+          <line num="567" count="2" type="cond" truecount="5" falsecount="0"/>
+          <line num="571" count="1" type="stmt"/>
+          <line num="585" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="589" count="1" type="stmt"/>
+          <line num="600" count="1" type="stmt"/>
+          <line num="601" count="1" type="stmt"/>
+          <line num="602" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="spin">
+        <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+        <file name="Spin.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/spin/Spin.vue">
+          <metrics statements="9" coveredstatements="9" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+          <line num="35" count="2" type="stmt"/>
+          <line num="41" count="2" type="stmt"/>
+          <line num="48" count="2" type="stmt"/>
+          <line num="49" count="2" type="stmt"/>
+          <line num="51" count="2" type="stmt"/>
+          <line num="53" count="2" type="stmt"/>
+          <line num="55" count="2" type="stmt"/>
+          <line num="58" count="4" type="stmt"/>
+          <line num="65" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="switch">
+        <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+        <file name="Switch.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/switch/Switch.vue">
+          <metrics statements="28" coveredstatements="28" conditionals="8" coveredconditionals="8" methods="6" coveredmethods="6"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="36" count="2" type="stmt"/>
+          <line num="37" count="16" type="stmt"/>
+          <line num="39" count="16" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="59" count="16" type="stmt"/>
+          <line num="63" count="4" type="cond" truecount="4" falsecount="0"/>
+          <line num="64" count="3" type="stmt"/>
+          <line num="67" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="74" count="2" type="stmt"/>
+          <line num="75" count="2" type="stmt"/>
+          <line num="76" count="2" type="stmt"/>
+          <line num="78" count="3" type="stmt"/>
+          <line num="79" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="88" count="20" type="stmt"/>
+          <line num="89" count="20" type="stmt"/>
+        </file>
+      </package>
+      <package name="table">
+        <metrics statements="168" coveredstatements="168" conditionals="69" coveredconditionals="69" methods="45" coveredmethods="45"/>
+        <file name="Table.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/table/Table.vue">
+          <metrics statements="91" coveredstatements="91" conditionals="35" coveredconditionals="35" methods="24" coveredmethods="24"/>
+          <line num="274" count="1" type="stmt"/>
+          <line num="279" count="1" type="stmt"/>
+          <line num="280" count="1" type="stmt"/>
+          <line num="281" count="1" type="stmt"/>
+          <line num="282" count="1" type="stmt"/>
+          <line num="283" count="1" type="stmt"/>
+          <line num="284" count="1" type="stmt"/>
+          <line num="285" count="1" type="stmt"/>
+          <line num="286" count="1" type="stmt"/>
+          <line num="287" count="1" type="stmt"/>
+          <line num="290" count="1" type="stmt"/>
+          <line num="318" count="1" type="stmt"/>
+          <line num="319" count="16" type="stmt"/>
+          <line num="321" count="16" type="stmt"/>
+          <line num="323" count="16" type="stmt"/>
+          <line num="325" count="16" type="stmt"/>
+          <line num="330" count="1" type="stmt"/>
+          <line num="335" count="1" type="stmt"/>
+          <line num="337" count="1" type="stmt"/>
+          <line num="339" count="1" type="stmt"/>
+          <line num="341" count="1" type="stmt"/>
+          <line num="346" count="1" type="stmt"/>
+          <line num="348" count="1" type="stmt"/>
+          <line num="350" count="1" type="stmt"/>
+          <line num="352" count="1" type="stmt"/>
+          <line num="354" count="1" type="stmt"/>
+          <line num="357" count="16" type="stmt"/>
+          <line num="358" count="16" type="stmt"/>
+          <line num="359" count="16" type="stmt"/>
+          <line num="360" count="16" type="stmt"/>
+          <line num="362" count="16" type="stmt"/>
+          <line num="363" count="88" type="stmt"/>
+          <line num="366" count="16" type="stmt"/>
+          <line num="368" count="16" type="stmt"/>
+          <line num="372" count="16" type="stmt"/>
+          <line num="374" count="16" type="stmt"/>
+          <line num="375" count="120" type="cond" truecount="4" falsecount="0"/>
+          <line num="376" count="16" type="stmt"/>
+          <line num="377" count="32" type="stmt"/>
+          <line num="378" count="32" type="stmt"/>
+          <line num="380" count="104" type="cond" truecount="4" falsecount="0"/>
+          <line num="381" count="100" type="stmt"/>
+          <line num="385" count="16" type="stmt"/>
+          <line num="386" count="88" type="stmt"/>
+          <line num="389" count="16" type="stmt"/>
+          <line num="393" count="8" type="stmt"/>
+          <line num="397" count="104" type="stmt"/>
+          <line num="401" count="8" type="stmt"/>
+          <line num="405" count="104" type="stmt"/>
+          <line num="409" count="16" type="stmt"/>
+          <line num="410" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="412" count="16" type="cond" truecount="4" falsecount="0"/>
+          <line num="413" count="4" type="stmt"/>
+          <line num="414" count="4" type="stmt"/>
+          <line num="416" count="16" type="stmt"/>
+          <line num="420" count="16" type="stmt"/>
+          <line num="421" count="16" type="cond" truecount="2" falsecount="0"/>
+          <line num="423" count="16" type="cond" truecount="4" falsecount="0"/>
+          <line num="424" count="8" type="stmt"/>
+          <line num="425" count="8" type="stmt"/>
+          <line num="427" count="16" type="stmt"/>
+          <line num="432" count="2" type="stmt"/>
+          <line num="433" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="434" count="1" type="stmt"/>
+          <line num="436" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="437" count="1" type="stmt"/>
+          <line num="442" count="4" type="stmt"/>
+          <line num="444" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="445" count="1" type="stmt"/>
+          <line num="448" count="3" type="stmt"/>
+          <line num="450" count="3" type="stmt"/>
+          <line num="451" count="3" type="stmt"/>
+          <line num="453" count="3" type="stmt"/>
+          <line num="457" count="10" type="stmt"/>
+          <line num="459" count="10" type="cond" truecount="2" falsecount="0"/>
+          <line num="460" count="2" type="stmt"/>
+          <line num="463" count="8" type="stmt"/>
+          <line num="464" count="8" type="stmt"/>
+          <line num="466" count="8" type="cond" truecount="2" falsecount="0"/>
+          <line num="467" count="6" type="stmt"/>
+          <line num="472" count="1" type="stmt"/>
+          <line num="476" count="3" type="stmt"/>
+          <line num="477" count="3" type="stmt"/>
+          <line num="478" count="3" type="stmt"/>
+          <line num="482" count="1" type="stmt"/>
+          <line num="483" count="1" type="stmt"/>
+          <line num="487" count="1" type="stmt"/>
+          <line num="488" count="1" type="stmt"/>
+          <line num="492" count="1" type="stmt"/>
+          <line num="496" count="3" type="cond" truecount="4" falsecount="0"/>
+          <line num="497" count="1" type="stmt"/>
+        </file>
+        <file name="Tbody.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/table/Tbody.vue">
+          <metrics statements="17" coveredstatements="17" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="109" count="2" type="stmt"/>
+          <line num="114" count="2" type="stmt"/>
+          <line num="115" count="2" type="stmt"/>
+          <line num="116" count="2" type="stmt"/>
+          <line num="117" count="2" type="stmt"/>
+          <line num="118" count="2" type="stmt"/>
+          <line num="126" count="2" type="stmt"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="129" count="1" type="stmt"/>
+          <line num="134" count="2" type="stmt"/>
+          <line num="139" count="2" type="stmt"/>
+          <line num="144" count="2" type="stmt"/>
+          <line num="146" count="2" type="stmt"/>
+          <line num="148" count="2" type="stmt"/>
+          <line num="151" count="4" type="stmt"/>
+          <line num="155" count="1" type="stmt"/>
+          <line num="159" count="1" type="stmt"/>
+        </file>
+        <file name="Thead.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/table/Thead.vue">
+          <metrics statements="60" coveredstatements="60" conditionals="34" coveredconditionals="34" methods="16" coveredmethods="16"/>
+          <line num="101" count="2" type="stmt"/>
+          <line num="106" count="2" type="stmt"/>
+          <line num="107" count="2" type="stmt"/>
+          <line num="108" count="2" type="stmt"/>
+          <line num="109" count="2" type="stmt"/>
+          <line num="110" count="2" type="stmt"/>
+          <line num="122" count="2" type="stmt"/>
+          <line num="123" count="9" type="stmt"/>
+          <line num="125" count="9" type="stmt"/>
+          <line num="127" count="9" type="stmt"/>
+          <line num="129" count="9" type="stmt"/>
+          <line num="131" count="9" type="stmt"/>
+          <line num="133" count="9" type="stmt"/>
+          <line num="138" count="2" type="stmt"/>
+          <line num="143" count="2" type="stmt"/>
+          <line num="148" count="2" type="stmt"/>
+          <line num="150" count="2" type="stmt"/>
+          <line num="152" count="2" type="stmt"/>
+          <line num="154" count="2" type="stmt"/>
+          <line num="156" count="2" type="stmt"/>
+          <line num="158" count="9" type="stmt"/>
+          <line num="164" count="3" type="cond" truecount="2" falsecount="0"/>
+          <line num="168" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="172" count="9" type="stmt"/>
+          <line num="173" count="9" type="stmt"/>
+          <line num="174" count="9" type="stmt"/>
+          <line num="176" count="9" type="stmt"/>
+          <line num="177" count="9" type="stmt"/>
+          <line num="178" count="1" type="stmt"/>
+          <line num="184" count="27" type="cond" truecount="3" falsecount="0"/>
+          <line num="186" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="187" count="3" type="stmt"/>
+          <line num="192" count="9" type="stmt"/>
+          <line num="197" count="12" type="stmt"/>
+          <line num="199" count="12" type="cond" truecount="1" falsecount="0"/>
+          <line num="200" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="201" count="7" type="stmt"/>
+          <line num="202" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="203" count="6" type="stmt"/>
+          <line num="205" count="7" type="cond" truecount="2" falsecount="0"/>
+          <line num="206" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="207" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="208" count="1" type="stmt"/>
+          <line num="209" count="1" type="stmt"/>
+          <line num="211" count="2" type="stmt"/>
+          <line num="213" count="3" type="stmt"/>
+          <line num="216" count="12" type="cond" truecount="5" falsecount="0"/>
+          <line num="217" count="6" type="stmt"/>
+          <line num="227" count="2" type="stmt"/>
+          <line num="228" count="6" type="stmt"/>
+          <line num="233" count="9" type="cond" truecount="2" falsecount="0"/>
+          <line num="234" count="8" type="stmt"/>
+          <line num="236" count="9" type="stmt"/>
+          <line num="240" count="8" type="stmt"/>
+          <line num="241" count="8" type="stmt"/>
+          <line num="242" count="24" type="stmt"/>
+          <line num="244" count="8" type="stmt"/>
+          <line num="245" count="24" type="stmt"/>
+          <line num="246" count="24" type="stmt"/>
+          <line num="252" count="81" type="cond" truecount="2" falsecount="0"/>
+        </file>
+      </package>
+      <package name="tag">
+        <metrics statements="108" coveredstatements="108" conditionals="30" coveredconditionals="30" methods="41" coveredmethods="41"/>
+        <file name="CheckTag.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/tag/CheckTag.vue">
+          <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="5" coveredmethods="5"/>
+          <line num="8" count="1" type="stmt"/>
+          <line num="16" count="2" type="stmt"/>
+          <line num="17" count="1" type="stmt"/>
+          <line num="19" count="1" type="stmt"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="23" count="1" type="stmt"/>
+          <line num="28" count="1" type="stmt"/>
+          <line num="30" count="1" type="stmt"/>
+          <line num="33" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="50" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+        </file>
+        <file name="NewTag.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/tag/NewTag.vue">
+          <metrics statements="47" coveredstatements="47" conditionals="8" coveredconditionals="8" methods="16" coveredmethods="16"/>
+          <line num="34" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="42" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="57" count="1" type="stmt"/>
+          <line num="58" count="4" type="stmt"/>
+          <line num="60" count="4" type="stmt"/>
+          <line num="62" count="4" type="stmt"/>
+          <line num="64" count="4" type="stmt"/>
+          <line num="66" count="1" type="stmt"/>
+          <line num="68" count="1" type="stmt"/>
+          <line num="70" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="74" count="1" type="stmt"/>
+          <line num="76" count="1" type="stmt"/>
+          <line num="80" count="1" type="stmt"/>
+          <line num="81" count="1" type="stmt"/>
+          <line num="86" count="1" type="stmt"/>
+          <line num="87" count="1" type="stmt"/>
+          <line num="90" count="1" type="stmt"/>
+          <line num="95" count="1" type="stmt"/>
+          <line num="98" count="7" type="stmt"/>
+          <line num="109" count="4" type="stmt"/>
+          <line num="113" count="2" type="stmt"/>
+          <line num="114" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="115" count="1" type="stmt"/>
+          <line num="120" count="1" type="stmt"/>
+          <line num="121" count="1" type="stmt"/>
+          <line num="122" count="1" type="stmt"/>
+          <line num="123" count="1" type="cond" truecount="2" falsecount="0"/>
+          <line num="124" count="1" type="stmt"/>
+          <line num="129" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="130" count="1" type="stmt"/>
+          <line num="133" count="1" type="stmt"/>
+          <line num="134" count="1" type="stmt"/>
+          <line num="135" count="1" type="stmt"/>
+          <line num="136" count="1" type="stmt"/>
+          <line num="142" count="1" type="stmt"/>
+          <line num="143" count="1" type="stmt"/>
+          <line num="147" count="1" type="stmt"/>
+          <line num="151" count="1" type="stmt"/>
+          <line num="152" count="2" type="stmt"/>
+          <line num="156" count="2" type="stmt"/>
+          <line num="158" count="2" type="stmt"/>
+          <line num="162" count="1" type="stmt"/>
+          <line num="163" count="2" type="stmt"/>
+        </file>
+        <file name="Tag.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/tag/Tag.vue">
+          <metrics statements="49" coveredstatements="49" conditionals="22" coveredconditionals="22" methods="20" coveredmethods="20"/>
+          <line num="22" count="1" type="stmt"/>
+          <line num="29" count="1" type="stmt"/>
+          <line num="42" count="2" type="stmt"/>
+          <line num="43" count="36" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="49" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="58" count="1" type="stmt"/>
+          <line num="60" count="1" type="stmt"/>
+          <line num="62" count="1" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="72" count="1" type="stmt"/>
+          <line num="75" count="40" type="stmt"/>
+          <line num="92" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="96" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="100" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="104" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="108" count="1" type="stmt"/>
+          <line num="112" count="1" type="stmt"/>
+          <line num="116" count="1" type="stmt"/>
+          <line num="120" count="36" type="stmt"/>
+          <line num="124" count="12" type="stmt"/>
+          <line num="125" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="126" count="12" type="stmt"/>
+          <line num="130" count="12" type="stmt"/>
+          <line num="131" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="132" count="12" type="stmt"/>
+          <line num="136" count="12" type="stmt"/>
+          <line num="137" count="12" type="cond" truecount="2" falsecount="0"/>
+          <line num="141" count="36" type="stmt"/>
+          <line num="145" count="12" type="stmt"/>
+          <line num="149" count="36" type="stmt"/>
+          <line num="151" count="36" type="cond" truecount="2" falsecount="0"/>
+          <line num="152" count="12" type="stmt"/>
+          <line num="153" count="12" type="stmt"/>
+          <line num="154" count="12" type="stmt"/>
+          <line num="156" count="36" type="stmt"/>
+          <line num="160" count="4" type="stmt"/>
+          <line num="161" count="4" type="cond" truecount="2" falsecount="0"/>
+          <line num="162" count="2" type="stmt"/>
+          <line num="167" count="1" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="172" count="2" type="stmt"/>
+          <line num="176" count="2" type="stmt"/>
+          <line num="178" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="179" count="1" type="stmt"/>
+          <line num="182" count="2" type="stmt"/>
+        </file>
+      </package>
+      <package name="tooltip">
+        <metrics statements="61" coveredstatements="61" conditionals="24" coveredconditionals="24" methods="16" coveredmethods="16"/>
+        <file name="Tooltip.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/tooltip/Tooltip.vue">
+          <metrics statements="61" coveredstatements="61" conditionals="24" coveredconditionals="24" methods="16" coveredmethods="16"/>
+          <line num="36" count="1" type="stmt"/>
+          <line num="43" count="1" type="stmt"/>
+          <line num="44" count="1" type="stmt"/>
+          <line num="45" count="1" type="stmt"/>
+          <line num="46" count="1" type="stmt"/>
+          <line num="47" count="1" type="stmt"/>
+          <line num="51" count="1" type="stmt"/>
+          <line num="52" count="1" type="stmt"/>
+          <line num="54" count="1" type="stmt"/>
+          <line num="56" count="1" type="stmt"/>
+          <line num="66" count="2" type="stmt"/>
+          <line num="67" count="1" type="stmt"/>
+          <line num="69" count="1" type="stmt"/>
+          <line num="71" count="1" type="stmt"/>
+          <line num="73" count="1" type="stmt"/>
+          <line num="78" count="1" type="stmt"/>
+          <line num="83" count="1" type="stmt"/>
+          <line num="88" count="1" type="stmt"/>
+          <line num="93" count="1" type="stmt"/>
+          <line num="98" count="1" type="stmt"/>
+          <line num="103" count="1" type="stmt"/>
+          <line num="105" count="1" type="stmt"/>
+          <line num="107" count="1" type="stmt"/>
+          <line num="109" count="1" type="stmt"/>
+          <line num="111" count="1" type="stmt"/>
+          <line num="116" count="1" type="stmt"/>
+          <line num="118" count="1" type="stmt"/>
+          <line num="121" count="1" type="stmt"/>
+          <line num="125" count="5" type="stmt"/>
+          <line num="126" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="127" count="1" type="stmt"/>
+          <line num="129" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="130" count="1" type="stmt"/>
+          <line num="132" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="133" count="1" type="stmt"/>
+          <line num="135" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="136" count="1" type="stmt"/>
+          <line num="138" count="5" type="stmt"/>
+          <line num="142" count="4" type="stmt"/>
+          <line num="153" count="4" type="stmt"/>
+          <line num="171" count="1" type="stmt"/>
+          <line num="175" count="1" type="stmt"/>
+          <line num="179" count="4" type="stmt"/>
+          <line num="183" count="4" type="stmt"/>
+          <line num="187" count="2" type="stmt"/>
+          <line num="188" count="2" type="stmt"/>
+          <line num="189" count="2" type="stmt"/>
+          <line num="194" count="2" type="cond" truecount="2" falsecount="0"/>
+          <line num="195" count="1" type="stmt"/>
+          <line num="200" count="2" type="stmt"/>
+          <line num="201" count="2" type="stmt"/>
+          <line num="202" count="2" type="stmt"/>
+          <line num="207" count="5" type="cond" truecount="2" falsecount="0"/>
+          <line num="208" count="4" type="stmt"/>
+          <line num="209" count="4" type="stmt"/>
+          <line num="211" count="5" type="cond" truecount="4" falsecount="0"/>
+          <line num="212" count="3" type="stmt"/>
+          <line num="213" count="3" type="stmt"/>
+          <line num="214" count="3" type="stmt"/>
+          <line num="219" count="1" type="stmt"/>
+          <line num="220" count="1" type="stmt"/>
+        </file>
+      </package>
+      <package name="vueScale">
+        <metrics statements="71" coveredstatements="23" conditionals="7" coveredconditionals="0" methods="11" coveredmethods="3"/>
+        <file name="vueScale.vue" path="/Users/zhangyufan/em/testPro/vue-scale/src/components/vueScale/vueScale.vue">
+          <metrics statements="71" coveredstatements="23" conditionals="7" coveredconditionals="0" methods="11" coveredmethods="3"/>
+          <line num="21" count="1" type="stmt"/>
+          <line num="34" count="2" type="stmt"/>
+          <line num="35" count="1" type="stmt"/>
+          <line num="37" count="1" type="stmt"/>
+          <line num="41" count="1" type="stmt"/>
+          <line num="43" count="9" type="stmt"/>
+          <line num="45" count="9" type="stmt"/>
+          <line num="47" count="9" type="stmt"/>
+          <line num="49" count="9" type="stmt"/>
+          <line num="51" count="9" type="stmt"/>
+          <line num="53" count="9" type="stmt"/>
+          <line num="55" count="9" type="stmt"/>
+          <line num="57" count="9" type="stmt"/>
+          <line num="59" count="9" type="stmt"/>
+          <line num="61" count="9" type="stmt"/>
+          <line num="63" count="9" type="stmt"/>
+          <line num="66" count="9" type="stmt"/>
+          <line num="67" count="9" type="stmt"/>
+          <line num="68" count="9" type="stmt"/>
+          <line num="72" count="0" type="stmt"/>
+          <line num="73" count="0" type="stmt"/>
+          <line num="74" count="0" type="stmt"/>
+          <line num="75" count="0" type="stmt"/>
+          <line num="76" count="0" type="stmt"/>
+          <line num="78" count="0" type="stmt"/>
+          <line num="82" count="0" type="stmt"/>
+          <line num="86" count="0" type="stmt"/>
+          <line num="87" count="0" type="stmt"/>
+          <line num="88" count="0" type="stmt"/>
+          <line num="89" count="0" type="stmt"/>
+          <line num="90" count="0" type="stmt"/>
+          <line num="91" count="0" type="stmt"/>
+          <line num="92" count="0" type="stmt"/>
+          <line num="97" count="1" type="stmt"/>
+          <line num="98" count="0" type="stmt"/>
+          <line num="103" count="0" type="stmt"/>
+          <line num="104" count="0" type="stmt"/>
+          <line num="105" count="0" type="cond" truecount="0" falsecount="2"/>
+          <line num="106" count="0" type="stmt"/>
+          <line num="110" count="0" type="stmt"/>
+          <line num="112" count="0" type="stmt"/>
+          <line num="116" count="0" type="stmt"/>
+          <line num="117" count="0" type="stmt"/>
+          <line num="118" count="0" type="stmt"/>
+          <line num="119" count="0" type="stmt"/>
+          <line num="120" count="0" type="cond" truecount="0" falsecount="4"/>
+          <line num="122" count="0" type="stmt"/>
+          <line num="123" count="0" type="stmt"/>
+          <line num="124" count="0" type="stmt"/>
+          <line num="125" count="0" type="stmt"/>
+          <line num="127" count="0" type="stmt"/>
+          <line num="129" count="0" type="stmt"/>
+          <line num="130" count="0" type="stmt"/>
+          <line num="131" count="0" type="stmt"/>
+          <line num="132" count="0" type="stmt"/>
+          <line num="133" count="0" type="stmt"/>
+          <line num="134" count="0" type="stmt"/>
+          <line num="136" count="0" type="stmt"/>
+          <line num="138" count="0" type="stmt"/>
+          <line num="143" count="0" type="stmt"/>
+          <line num="144" count="0" type="stmt"/>
+          <line num="145" count="0" type="stmt"/>
+          <line num="146" count="0" type="stmt"/>
+          <line num="147" count="0" type="stmt"/>
+          <line num="148" count="0" type="stmt"/>
+          <line num="149" count="0" type="stmt"/>
+          <line num="150" count="0" type="stmt"/>
+          <line num="155" count="1" type="cond" truecount="0" falsecount="1"/>
+          <line num="156" count="0" type="stmt"/>
+          <line num="161" count="36" type="stmt"/>
+          <line num="162" count="36" type="stmt"/>
+        </file>
+      </package>
+    </metrics>
+  </project>
+</coverage>

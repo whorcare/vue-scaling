@@ -1,0 +1,605 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Code coverage report for vueScale/vueScale.vue</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="../prettify.css" />
+    <link rel="stylesheet" href="../base.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style type='text/css'>
+        .coverage-summary .sorter {
+            background-image: url(../sort-arrow-sprite.png);
+        }
+    </style>
+</head>
+<body>
+<div class='wrapper'>
+  <div class='pad1'>
+    <h1>
+      <a href="../index.html">All files</a> / <a href="index.html">vueScale</a> vueScale.vue
+    </h1>
+    <div class='clearfix'>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">32.39% </span>
+        <span class="quiet">Statements</span>
+        <span class='fraction'>23/71</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">0% </span>
+        <span class="quiet">Branches</span>
+        <span class='fraction'>0/7</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">27.27% </span>
+        <span class="quiet">Functions</span>
+        <span class='fraction'>3/11</span>
+      </div>
+      <div class='fl pad1y space-right2'>
+        <span class="strong">32.39% </span>
+        <span class="quiet">Lines</span>
+        <span class='fraction'>23/71</span>
+      </div>
+    </div>
+  </div>
+  <div class='status-line low'></div>
+<pre><table class="coverage">
+<tr><td class="line-count quiet">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+51
+52
+53
+54
+55
+56
+57
+58
+59
+60
+61
+62
+63
+64
+65
+66
+67
+68
+69
+70
+71
+72
+73
+74
+75
+76
+77
+78
+79
+80
+81
+82
+83
+84
+85
+86
+87
+88
+89
+90
+91
+92
+93
+94
+95
+96
+97
+98
+99
+100
+101
+102
+103
+104
+105
+106
+107
+108
+109
+110
+111
+112
+113
+114
+115
+116
+117
+118
+119
+120
+121
+122
+123
+124
+125
+126
+127
+128
+129
+130
+131
+132
+133
+134
+135
+136
+137
+138
+139
+140
+141
+142
+143
+144
+145
+146
+147
+148
+149
+150
+151
+152
+153
+154
+155
+156
+157
+158
+159
+160
+161
+162
+163
+164
+165
+166
+167
+168
+169
+170
+171
+172
+173
+174
+175
+176
+177
+178
+179
+180
+181</td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-yes">9x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-no">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">36x</span>
+<span class="cline-any cline-yes">36x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span></td><td class="text"><pre class="prettyprint lang-js">&lt;!--  --&gt;
+&lt;template&gt;
+  &lt;div class="vue-scale" ref="vueScaleRef" :style="{height: `${height}px`, width: `${width}px`}"&gt;
+    &lt;!-- eslint-disable max-len --&gt;
+    &lt;v-touch
+      class="box"
+      @panmove="onPan"
+      @panstart="onPanStart"
+      @pinchmove="onPinch"
+      @pinchstart="onPinchStart"
+      @doubletap="onDoubleTap"
+      :pinch-options="{ threshold: 0.09 }" :pan-options="{ threshold: 0.01 }"
+      :style="{transform: `matrix(${this.tMatrix.join(',')})`, transition: this.duration ? '.3s ease all' : ''}"&gt;
+      &lt;!--此插槽可以缩放,拖动--&gt;
+      &lt;slot&gt;&lt;/slot&gt;
+    &lt;/v-touch&gt;
+  &lt;/div&gt;
+&lt;/template&gt;
+&nbsp;
+&lt;script lang="ts"&gt;
+import {
+  Component,
+  Prop,
+  Emit,
+  Vue,
+} from 'vue-property-decorator';
+&nbsp;
+interface point2D {
+  x: number,
+  y: number,
+}
+&nbsp;
+@Component
+export default class vueScale extends Vue {
+  @Prop({ type: Number, default: 100 }) private height!: number;
+&nbsp;
+  @Prop({ type: Number, default: 100 }) private width!: number;
+&nbsp;
+  // @Prop({ type: Number, default: 0 }) private top!: number;
+&nbsp;
+  @Prop({ type: Number, default: 1.5 }) private maxScale!: number;
+&nbsp;
+  e: any = null;
+&nbsp;
+  tMatrix: Array&lt;number&gt; = [1, 0, 0, 1, 0, 0]; // x缩放，无，无，y缩放，x平移，y平移
+&nbsp;
+  initScale: number = 1; // 初始化scale
+&nbsp;
+  poscenter: point2D = this.point2D(0, 0); // 缓存双指的中心坐标
+&nbsp;
+  duration: boolean = false; // 设置过渡效果，用于双击缩放效果
+&nbsp;
+  lastTranslate: point2D = this.point2D(0, 0); // 记录上次的偏移值
+&nbsp;
+  lastcenter: point2D = this.point2D(this.width / 2, this.height / 2); // 图像的中心点，用于对比双指中心点
+&nbsp;
+  center: point2D = this.point2D(this.width / 2, this.height / 2);
+&nbsp;
+  nowScale: number = 1; // 缩放scale
+&nbsp;
+  top: number = 0; // 距离顶部
+&nbsp;
+  left: number = 0; // 距离左边
+&nbsp;
+  mounted() {
+    this.top = this.$refs.vueScaleRef.getBoundingClientRect().top;
+    this.left = this.$refs.vueScaleRef.getBoundingClientRect().left;
+    console.log('距离左边，顶部', this.left, this.top);
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  onPan(ev: any) {</span>
+<span class="cstat-no" title="statement not covered" >    this.duration = false;</span>
+<span class="cstat-no" title="statement not covered" >    const cloneTMatrix = [...this.tMatrix];</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[5] = this.lastTranslate.y + ev.deltaY;</span>
+<span class="cstat-no" title="statement not covered" >    this.tMatrix = cloneTMatrix;</span>
+    // this.$emit('moveChange', { x: ev.center.x, y: ev.center.y - 150 });
+<span class="cstat-no" title="statement not covered" >    this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  onPanStart() {</span>
+<span class="cstat-no" title="statement not covered" >    this.lastTranslate = this.point2D(this.tMatrix[4], this.tMatrix[5]); // 缓存上一次的偏移值</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  onPinch(ev) {</span>
+<span class="cstat-no" title="statement not covered" >    console.log(ev);</span>
+<span class="cstat-no" title="statement not covered" >    this.duration = false;</span>
+<span class="cstat-no" title="statement not covered" >    const cloneTMatrix = [...this.tMatrix];</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[5] = this.lastTranslate.y + ev.deltaY;</span>
+<span class="cstat-no" title="statement not covered" >    this.tMatrix = cloneTMatrix;</span>
+<span class="cstat-no" title="statement not covered" >    this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });</span>
+  }
+&nbsp;
+  @Emit('moveChange')
+  // eslint-disable-next-line
+<span class="fstat-no" title="function not covered" >  moveChange(point2DObj) {</span>
+<span class="cstat-no" title="statement not covered" >    return point2DObj;</span>
+  }
+&nbsp;
+  // 缩放开始
+<span class="fstat-no" title="function not covered" >  onPinchStart(ev) {</span>
+<span class="cstat-no" title="statement not covered" >    this.duration = false;</span>
+<span class="cstat-no" title="statement not covered" >    this.lastTranslate = this.point2D(this.tMatrix[4], this.tMatrix[5]);//记录上一次的偏移值</span>
+<span class="cstat-no" title="statement not covered" >    this.initScale = this.tMatrix[0] || 1;</span>
+<span class="cstat-no" title="statement not covered" >    this.poscenter = this.point2D(ev.center.x - this.left, ev.center.y - this.top);</span>
+&nbsp;
+    //重新计算放大后的中心坐标
+    // eslint-disable-next-line
+<span class="cstat-no" title="statement not covered" >    this.lastcenter = this.point2D(this.center.x + this.lastTranslate.x, this.center.y + this.lastTranslate.y);</span>
+    // eslint-disable-next-line
+<span class="cstat-no" title="statement not covered" >    this.poscenter = this.point2D(ev.center.x - this.lastcenter.x - this.left, ev.center.y - this.top - this.lastcenter.y);</span>
+  }
+&nbsp;
+<span class="fstat-no" title="function not covered" >  onDoubleTap(ev) {</span>
+<span class="cstat-no" title="statement not covered" >    console.log(ev);</span>
+<span class="cstat-no" title="statement not covered" >    this.duration = true;</span>
+<span class="cstat-no" title="statement not covered" >    [this.nowScale] = this.tMatrix;</span>
+<span class="cstat-no" title="statement not covered" >    const cloneTMatrix = [...this.tMatrix];</span>
+<span class="cstat-no" title="statement not covered" >    if (this.nowScale !== 1 || this.tMatrix[4] !== 0) {</span>
+      //scale不等于1，要重回1
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[0] = 1;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[3] = 1;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[4] = 0;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[5] = 0;</span>
+      // this.$emit('scaleChange', 1, this.poscenter);
+<span class="cstat-no" title="statement not covered" >      this.scaleChange(1, this.poscenter);</span>
+    } else {
+<span class="cstat-no" title="statement not covered" >      const pointer = ev.center;</span>
+<span class="cstat-no" title="statement not covered" >      const scale = this.maxScale;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[0] = scale;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[3] = scale;</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[4] = (1 - scale) * (pointer.x - this.center.x - this.left);</span>
+<span class="cstat-no" title="statement not covered" >      cloneTMatrix[5] = (1 - scale) * (pointer.y - this.top - this.center.y);</span>
+      // this.$emit('scaleChange', scale, { x: pointer.x, y: pointer.y - this.top });
+<span class="cstat-no" title="statement not covered" >      this.scaleChange(scale, { x: pointer.x - this.left, y: pointer.y - this.top });</span>
+    }
+<span class="cstat-no" title="statement not covered" >    this.tMatrix = cloneTMatrix;</span>
+  }
+&nbsp;
+  // 回到初始状态
+<span class="fstat-no" title="function not covered" >  backState() {</span>
+<span class="cstat-no" title="statement not covered" >    const cloneTMatrix = [...this.tMatrix];</span>
+<span class="cstat-no" title="statement not covered" >    this.duration = true;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[0] = 1;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[3] = 1;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[4] = 0;</span>
+<span class="cstat-no" title="statement not covered" >    cloneTMatrix[5] = 0;</span>
+<span class="cstat-no" title="statement not covered" >    this.tMatrix = cloneTMatrix;</span>
+<span class="cstat-no" title="statement not covered" >    this.scaleChange(1);</span>
+  }
+&nbsp;
+  @Emit('scaleChange')
+  // eslint-disable-next-line
+<span class="fstat-no" title="function not covered" ><span class="branch-0 cbranch-no" title="branch not covered" >  scaleChange(scale: number, point = {}): object {</span></span>
+<span class="cstat-no" title="statement not covered" >    return { scale, point };</span>
+  }
+&nbsp;
+  // eslint-disable-next-line
+  point2D(x: number, y: number): point2D {
+    console.log(this);
+    return { x, y };
+  }
+}
+&lt;/script&gt;
+&lt;style lang='scss'&gt;
+.vue-scale {
+  background: #999;
+  // overflow: hidden;
+&nbsp;
+  .box {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    top: 0;
+    left: 0;
+    // transform-origin: center center;
+  }
+}
+&lt;/style&gt;
+&nbsp;</pre></td></tr>
+</table></pre>
+<div class='push'></div><!-- for sticky footer -->
+</div><!-- /wrapper -->
+<div class='footer quiet pad2 space-top1 center small'>
+  Code coverage
+  generated by <a href="https://istanbul.js.org/" target="_blank">istanbul</a> at Wed Nov 27 2019 15:59:31 GMT+0800 (GMT+08:00)
+</div>
+</div>
+<script src="../prettify.js"></script>
+<script>
+window.onload = function () {
+        if (typeof prettyPrint === 'function') {
+            prettyPrint();
+        }
+};
+</script>
+<script src="../sorter.js"></script>
+</body>
+</html>

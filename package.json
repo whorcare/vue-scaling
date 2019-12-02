@@ -1,0 +1,92 @@
+{
+  "name": "@fe6/water",
+  "version": "0.17.7",
+  "author": "whorcare <18766850824@163.com>",
+  "main": "dist/w.js",
+  "unpkg": "dist/w.js",
+  "files": [
+    "dist",
+    "src"
+  ],
+  "scripts": {
+    "start": "vue-cli-service serve",
+    "build": "yarn build:wc && yarn build:lib",
+    "build:site": "vue-cli-service build --modern --mode site",
+    "build:wc": "vue-cli-service build --target wc-async --name w 'src/components/**/*.vue' --mode wc",
+    "build:lib": "vue-cli-service build --target lib --name water 'src/components/index.ts' --mode lib",
+    "site": "yarn build:site && bash scripts/deploy-gh.sh",
+    "lint": "yarn jslint && yarn style",
+    "jslint": "vue-cli-service lint",
+    "style": "stylelint ./src/**/*.scss --fix --config ./.stylelintrc",
+    "test": "vue-cli-service test:unit",
+    "codecov": "codecov ./coverage/clover.xml",
+    "prepublishOnly": "yarn build"
+  },
+  "devDependencies": {
+    "@types/codemirror": "^0.0.76",
+    "@types/gsap": "^1.20.2",
+    "@types/jest": "^23.1.4",
+    "@types/lodash": "^4.14.133",
+    "@vue/cli-plugin-babel": "^3.5.0",
+    "@vue/cli-plugin-eslint": "^3.5.0",
+    "@vue/cli-plugin-typescript": "^3.5.0",
+    "@vue/cli-plugin-unit-jest": "^3.5.0",
+    "@vue/cli-service": "^3.5.0",
+    "@vue/eslint-config-airbnb": "^4.0.0",
+    "@vue/eslint-config-typescript": "^4.0.0",
+    "@vue/test-utils": "1.0.0-beta.29",
+    "add-dom-event-listener": "^1.1.0",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-eslint": "^10.0.1",
+    "codecov": "^3.3.0",
+    "codemirror": "^5.47.0",
+    "core-js": "^2.6.5",
+    "eslint": "^5.8.0",
+    "eslint-plugin-vue": "^5.0.0",
+    "fibers": "^3.1.1",
+    "gsap": "^2.1.3",
+    "jest-environment-jsdom-global": "^1.2.0",
+    "lodash": "^4.17.14",
+    "moment": "^2.24.0",
+    "node-sass": "^4.11.0",
+    "pre-commit": "^1.2.2",
+    "reflect-metadata": "^0.1.13",
+    "register-service-worker": "^1.6.2",
+    "sass": "^1.17.2",
+    "sass-loader": "^7.1.0",
+    "stylelint": "^10.1.0",
+    "ts-jest": "^23.0.0",
+    "typescript": "^3.2.1",
+    "vue": "^2.6.6",
+    "vue-class-component": "^6.0.0",
+    "vue-codemirror": "^4.0.6",
+    "vue-property-decorator": "^8.2.1",
+    "vue-router": "^3.0.2",
+    "vue-template-compiler": "^2.5.21",
+    "vue-touch": "^2.0.0-beta.4"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/fe6/water#readme",
+  "bugs": {
+    "url": "https://github.com/fe6/water/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:fe6/water.git"
+  },
+  "keywords": [
+    "eleme",
+    "vue",
+    "vue-design",
+    "ant",
+    "design",
+    "components",
+    "ui",
+    "framework",
+    "frontend"
+  ],
+  "pre-commit": [
+    "lint",
+    "test"
+  ]
+}
