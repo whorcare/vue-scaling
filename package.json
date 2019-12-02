@@ -1,7 +1,8 @@
 {
-  "name": "@fe6/water",
-  "version": "0.17.7",
-  "author": "whorcare <18766850824@163.com>",
+  "name": "vue-scale",
+  "version": "0.0.1",
+  "description": "基于vue快速简单通过canvas动态生成海报的组件应用",
+  "author": "yufan <18766850824@163.com>",
   "main": "dist/w.js",
   "unpkg": "dist/w.js",
   "files": [
@@ -13,7 +14,7 @@
     "build": "yarn build:wc && yarn build:lib",
     "build:site": "vue-cli-service build --modern --mode site",
     "build:wc": "vue-cli-service build --target wc-async --name w 'src/components/**/*.vue' --mode wc",
-    "build:lib": "vue-cli-service build --target lib --name water 'src/components/index.ts' --mode lib",
+    "build:lib": "vue-cli-service build --target lib --name vue-scale 'src/components/index.ts' --mode lib",
     "site": "yarn build:site && bash scripts/deploy-gh.sh",
     "lint": "yarn jslint && yarn style",
     "jslint": "vue-cli-service lint",
@@ -66,24 +67,17 @@
     "vue-touch": "^2.0.0-beta.4"
   },
   "license": "MIT",
-  "homepage": "https://github.com/fe6/water#readme",
+  "homepage": "https://github.com/whorcare/vue-scale/#readme",
   "bugs": {
-    "url": "https://github.com/fe6/water/issues"
+    "url": "https://github.com/whorcare/vue-scale/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:fe6/water.git"
+    "url": "https://github.com/whorcare/vue-scale.git"
   },
   "keywords": [
-    "eleme",
     "vue",
-    "vue-design",
-    "ant",
-    "design",
-    "components",
-    "ui",
-    "framework",
-    "frontend"
+    "vue-scale"
   ],
   "pre-commit": [
     "lint",
