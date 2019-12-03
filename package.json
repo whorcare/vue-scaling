@@ -1,6 +1,6 @@
 {
   "name": "vue-scaling",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "基于vue快速简单通过canvas动态生成海报的组件应用",
   "author": "yufan <18766850824@163.com>",
   "main": "dist/w.js",
