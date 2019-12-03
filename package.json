@@ -1,5 +1,5 @@
 {
-  "name": "vue-scale",
+  "name": "vue-scaling",
   "version": "0.0.1",
   "description": "基于vue快速简单通过canvas动态生成海报的组件应用",
   "author": "yufan <18766850824@163.com>",
@@ -14,7 +14,7 @@
     "build": "yarn build:wc && yarn build:lib",
     "build:site": "vue-cli-service build --modern --mode site",
     "build:wc": "vue-cli-service build --target wc-async --name w 'src/components/**/*.vue' --mode wc",
-    "build:lib": "vue-cli-service build --target lib --name vue-scale 'src/components/index.ts' --mode lib",
+    "build:lib": "vue-cli-service build --target lib --name vue-scaling 'src/components/index.ts' --mode lib",
     "site": "yarn build:site && bash scripts/deploy-gh.sh",
     "lint": "yarn jslint && yarn style",
     "jslint": "vue-cli-service lint",
