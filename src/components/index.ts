@@ -1,8 +1,8 @@
 // 组件
-import VueScale from './vueScale/vueScale.vue';
+import vueScaling from './vueScale/vueScale.vue';
 
 const waterCpt = {
-  VueScale,
+  vueScaling,
 };
 
 const install = (Vue: any) => {

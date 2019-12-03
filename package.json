@@ -82,5 +82,8 @@
   "pre-commit": [
     "lint",
     "test"
-  ]
+  ],
+  "dependencies": {
+    "@fe6/water": "^0.19.3"
+  }
 }

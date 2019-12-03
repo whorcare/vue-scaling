@@ -24,3 +24,5 @@ yarn-error.log*
 
 # depoly
 lab.sh
+
+node_modules

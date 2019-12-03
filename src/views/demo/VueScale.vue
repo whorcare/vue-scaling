@@ -15,7 +15,7 @@ import VueScale from '@/views/components/VueScaleDemo.vue';
     VueScale,
   },
 })
-export default class AffixView extends Vue {
+export default class vueScaling extends Vue {
   // eslint-disable-next-line
   moveChange(e) {
     console.log(e, 'moveChangeEmit');
