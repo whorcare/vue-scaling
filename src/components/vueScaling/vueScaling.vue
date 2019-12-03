@@ -31,7 +31,7 @@ interface point2D {
 }
 
 @Component({
-  name: 'vueScaling'
+  name: 'vueScaling',
 })
 export default class vueScaling extends Vue {
   @Prop({ type: Number, default: 100 }) private height!: number;

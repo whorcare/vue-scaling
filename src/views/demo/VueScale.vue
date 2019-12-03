@@ -7,15 +7,14 @@
 </template>
 <script lang="ts">
 import { Component, Vue } from 'vue-property-decorator';
-import VueScale from '@/views/components/VueScaleDemo.vue';
-// import VueScale from '@/components/VueScale/VueScale.vue';
+import VueScale from '@/views/components/VueScalingDemo.vue';
 
 @Component({
   components: {
     VueScale,
   },
 })
-export default class vueScaling extends Vue {
+export default class vueScalingOut extends Vue {
   // eslint-disable-next-line
   moveChange(e) {
     console.log(e, 'moveChangeEmit');

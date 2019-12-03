@@ -1,9 +1,9 @@
 <!--  -->
 <template>
-  <vueScale :height="400" :width="400" @moveChange="moveChange">
+  <vueScaling :height="400" :width="400" @moveChange="moveChange">
     <!-- <img src="https://0img.evente.cn/1a/0a/f4/efa087176046673ba4820c8d32.jpg" style="width: 400px;height: 400px"> -->
     <div style="background:rgba(97, 72, 72, 0.5);width:400px;height:400px"></div>
-  </vueScale>
+  </vueScaling>
 </template>
 
 <script lang="ts">
@@ -11,14 +11,14 @@ import {
   Component,
   Vue,
 } from 'vue-property-decorator';
-import vueScale from '@/components/vueScale/vueScale.vue';
+import vueScaling from '@/components/vueScaling/vueScaling.vue';
 
 @Component({
   components: {
-    vueScale,
+    vueScaling,
   },
 })
-export default class vueScaleDemo extends Vue {
+export default class vueScalingDemo extends Vue {
   // eslint-disable-next-line
   moveChange(e) {
     console.log(e, 'moveChangeEmit');
