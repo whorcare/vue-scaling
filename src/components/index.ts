@@ -1,5 +1,5 @@
 // 组件
-import vueScaling from './vueScale/vueScale.vue';
+import vueScaling from './vueScaling/vueScaling.vue';
 
 const waterCpt = {
   vueScaling,

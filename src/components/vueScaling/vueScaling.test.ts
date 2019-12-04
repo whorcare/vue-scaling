@@ -1,25 +1,25 @@
 import { mount } from '@vue/test-utils';
-import vueScale from './vueScale.vue';
+import vueScaling from './vueScaling.vue';
 
-describe('vueScale.vue', () => {
+describe('vueScaling.vue', () => {
   let wrapperHeight:any = null;
   let wrapperWidth:any = null;
   let wrapperMaxScale:any = null;
 
   beforeEach(() => {
-    wrapperHeight = mount(vueScale, {
+    wrapperHeight = mount(vueScaling, {
       propsData: {
         height: 400,
       },
       attachToDocument: true,
     });
-    wrapperWidth = mount(vueScale, {
+    wrapperWidth = mount(vueScaling, {
       propsData: {
         width: 400,
       },
       attachToDocument: true,
     });
-    wrapperMaxScale = mount(vueScale, {
+    wrapperMaxScale = mount(vueScaling, {
       propsData: {
         maxScale: 2,
       },

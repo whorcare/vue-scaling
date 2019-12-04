@@ -24,6 +24,7 @@ import {
   Emit,
   Vue,
 } from 'vue-property-decorator';
+import VueTouch from '../../../node_modules/vue-touch';
 
 interface point2D {
   x: number,
@@ -31,7 +32,9 @@ interface point2D {
 }
 
 @Component({
-  name: 'vueScaling',
+  components: {
+    VueTouch,
+  },
 })
 export default class vueScaling extends Vue {
   @Prop({ type: Number, default: 100 }) private height!: number;
@@ -162,6 +165,13 @@ export default class vueScaling extends Vue {
     return { x, y };
   }
 }
+VueTouch.registerCustomEvent('doubletap', {
+  type: 'tap',
+  taps: 2,
+});
+Vue.use(VueTouch, {
+  name: 'v-touch',
+});
 </script>
 <style lang='scss'>
 .vue-scale {
