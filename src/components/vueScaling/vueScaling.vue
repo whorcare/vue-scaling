@@ -26,6 +26,8 @@ import {
 } from 'vue-property-decorator';
 import VueTouch from '../../../node_modules/vue-touch';
 
+let tapNumberZ = 0;
+
 interface point2D {
   x: number,
   y: number,
@@ -42,6 +44,10 @@ export default class vueScaling extends Vue {
   @Prop({ type: Number, default: 100 }) private width!: number;
 
   @Prop({ type: Number, default: 1.5 }) private maxScale!: number;
+
+  @Prop({ type: Number, default: 2 }) private tapNumber!: number;
+
+  tapNumberZ = this.tapNumber;
 
   e: any = null;
 
@@ -68,7 +74,6 @@ export default class vueScaling extends Vue {
   mounted() {
     this.top = (this.$refs.vueScaleRef as Element).getBoundingClientRect().top;
     this.left = (this.$refs.vueScaleRef as Element).getBoundingClientRect().left;
-    console.log('距离左边，顶部', this.left, this.top);
   }
 
   onPan(ev: any) {
@@ -77,7 +82,6 @@ export default class vueScaling extends Vue {
     cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;
     cloneTMatrix[5] = this.lastTranslate.y + ev.deltaY;
     this.tMatrix = cloneTMatrix;
-    // this.$emit('moveChange', { x: ev.center.x, y: ev.center.y - 150 });
     this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });
   }
 
@@ -86,7 +90,6 @@ export default class vueScaling extends Vue {
   }
 
   onPinch(ev) {
-    console.log(ev);
     this.duration = false;
     const cloneTMatrix = [...this.tMatrix];
     cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;
@@ -116,7 +119,6 @@ export default class vueScaling extends Vue {
   }
 
   onDoubleTap(ev) {
-    console.log(ev);
     this.duration = true;
     [this.nowScale] = this.tMatrix;
     const cloneTMatrix = [...this.tMatrix];
@@ -126,7 +128,6 @@ export default class vueScaling extends Vue {
       cloneTMatrix[3] = 1;
       cloneTMatrix[4] = 0;
       cloneTMatrix[5] = 0;
-      // this.$emit('scaleChange', 1, this.poscenter);
       this.scaleChange(1, this.poscenter);
     } else {
       const pointer = ev.center;
@@ -135,7 +136,6 @@ export default class vueScaling extends Vue {
       cloneTMatrix[3] = scale;
       cloneTMatrix[4] = (1 - scale) * (pointer.x - this.center.x - this.left);
       cloneTMatrix[5] = (1 - scale) * (pointer.y - this.top - this.center.y);
-      // this.$emit('scaleChange', scale, { x: pointer.x, y: pointer.y - this.top });
       this.scaleChange(scale, { x: pointer.x - this.left, y: pointer.y - this.top });
     }
     this.tMatrix = cloneTMatrix;
@@ -161,13 +161,12 @@ export default class vueScaling extends Vue {
 
   // eslint-disable-next-line
   point2D(x: number, y: number): point2D {
-    console.log(this);
     return { x, y };
   }
 }
 VueTouch.registerCustomEvent('doubletap', {
   type: 'tap',
-  taps: 2,
+  taps: tapNumberZ,
 });
 Vue.use(VueTouch, {
   name: 'v-touch',
