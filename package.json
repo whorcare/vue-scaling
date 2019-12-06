@@ -1,10 +1,10 @@
 {
   "name": "vue-scaling",
-  "version": "0.0.8",
-  "description": "基于vue快速简单通过canvas动态生成海报的组件应用",
+  "version": "0.0.9",
+  "description": "基于vue+vue-touch开箱即用缩放组件 (A super easy zomm components for Vue)",
   "author": "yufan <18766850824@163.com>",
-  "main": "dist/w.js",
-  "unpkg": "dist/w.js",
+  "main": "dist/lib/vue-scaling.umd.js",
+  "unpkg": "dist/lib/vue-scaling.umd.js",
   "files": [
     "dist",
     "src"
@@ -67,17 +67,21 @@
     "vue-touch": "^2.0.0-beta.4"
   },
   "license": "MIT",
-  "homepage": "https://github.com/whorcare/vue-scale/#readme",
+  "homepage": "https://github.com/whorcare/vue-scaling/#readme",
   "bugs": {
-    "url": "https://github.com/whorcare/vue-scale/issues"
+    "url": "https://github.com/whorcare/vue-scaling/issues"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/whorcare/vue-scale.git"
+    "url": "https://github.com/whorcare/vue-scaling.git"
   },
   "keywords": [
+    "vue-scaling",
     "vue",
-    "vue-scale"
+    "zomm",
+    "scale",
+    "vue-zomm",
+    "vue-hammer"
   ],
   "pre-commit": [
     "lint",
