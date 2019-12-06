@@ -26,8 +26,6 @@ import {
 } from 'vue-property-decorator';
 import VueTouch from '../../../node_modules/vue-touch';
 
-let tapNumberZ = 0;
-
 interface point2D {
   x: number,
   y: number,
@@ -46,8 +44,6 @@ export default class vueScaling extends Vue {
   @Prop({ type: Number, default: 1.5 }) private maxScale!: number;
 
   @Prop({ type: Number, default: 2 }) private tapNumber!: number;
-
-  tapNumberZ = this.tapNumber;
 
   e: any = null;
 
@@ -70,6 +66,11 @@ export default class vueScaling extends Vue {
   top: number = 0; // 距离顶部
 
   left: number = 0; // 距离左边
+
+  created() {
+    console.log(1111);
+    this.doubleTapInit();
+  }
 
   mounted() {
     this.top = (this.$refs.vueScaleRef as Element).getBoundingClientRect().top;
@@ -163,11 +164,15 @@ export default class vueScaling extends Vue {
   point2D(x: number, y: number): point2D {
     return { x, y };
   }
+
+  doubleTapInit() {
+    VueTouch.registerCustomEvent('doubletap', {
+      type: 'tap',
+      taps: this.tapNumber,
+    });
+  }
 }
-VueTouch.registerCustomEvent('doubletap', {
-  type: 'tap',
-  taps: tapNumberZ,
-});
+
 Vue.use(VueTouch, {
   name: 'v-touch',
 });
