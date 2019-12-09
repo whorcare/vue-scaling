@@ -111,7 +111,6 @@ export default class vueScaling extends Vue {
 
   // 缩放开始
   onPinchStart(ev) {
-    console.log('缩放开始');
     this.duration = false;
     this.lastTranslate = this.point2D(this.tMatrix[4], this.tMatrix[5]);//记录上一次的偏移值
     this.initScale = this.tMatrix[0] || 1;
