@@ -9,7 +9,7 @@ const install = (Vue: any) => {
   if ((install as any).installed) return;
 
   Object.keys(waterCpt).forEach((key) => {
-    Vue.component(`W${key}`, (waterCpt as any)[key]);
+    Vue.component(`${key}`, (waterCpt as any)[key]);
   });
 };
 

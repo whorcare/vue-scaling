@@ -1,7 +1,6 @@
 <template>
   <div class="affix">
     <VueScale :height="400" :width="400" @moveChange="moveChange">
-      <div style="background:rgba(97, 72, 72, 0.5);width:400px;height:400px"></div>
     </VueScale>
   </div>
 </template>

@@ -41,9 +41,9 @@ export default class vueScaling extends Vue {
 
   @Prop({ type: Number, default: 100 }) private width!: number;
 
-  @Prop({ type: Number, default: 1.5 }) private maxScale!: number;
+  @Prop({ type: Number, default: 2 }) private maxScale!: number;
 
-  @Prop({ type: Number, default: 2 }) private tapNumber!: number;
+  @Prop({ type: Number, default: 0.5 }) private minScale!: number;
 
   e: any = null;
 
@@ -67,11 +67,6 @@ export default class vueScaling extends Vue {
 
   left: number = 0; // 距离左边
 
-  created() {
-    console.log(1111);
-    this.doubleTapInit();
-  }
-
   mounted() {
     this.top = (this.$refs.vueScaleRef as Element).getBoundingClientRect().top;
     this.left = (this.$refs.vueScaleRef as Element).getBoundingClientRect().left;
@@ -91,12 +86,21 @@ export default class vueScaling extends Vue {
   }
 
   onPinch(ev) {
-    this.duration = false;
+    const nowScale = ev.scale;
+    if (this.initScale * nowScale > this.maxScale) { // 最大缩放值
+      return;
+    }
+    if (this.initScale * nowScale < this.minScale) { // 最小缩放值
+      return;
+    }
     const cloneTMatrix = [...this.tMatrix];
-    cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;
-    cloneTMatrix[5] = this.lastTranslate.y + ev.deltaY;
+    cloneTMatrix[0] = this.initScale * nowScale;
+    cloneTMatrix[3] = this.initScale * nowScale;
+    cloneTMatrix[4] = ((1 - nowScale) * this.poscenter.x) + this.lastTranslate.x;
+    cloneTMatrix[5] = ((1 - nowScale) * this.poscenter.y) + this.lastTranslate.y;
     this.tMatrix = cloneTMatrix;
-    this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });
+    // eslint-disable-next-line
+    this.scaleChange(this.initScale * nowScale, { x: ev.center.x - this.left, y: ev.center.y - this.top });
   }
 
   @Emit('moveChange')
@@ -107,6 +111,7 @@ export default class vueScaling extends Vue {
 
   // 缩放开始
   onPinchStart(ev) {
+    console.log('缩放开始');
     this.duration = false;
     this.lastTranslate = this.point2D(this.tMatrix[4], this.tMatrix[5]);//记录上一次的偏移值
     this.initScale = this.tMatrix[0] || 1;
@@ -164,15 +169,11 @@ export default class vueScaling extends Vue {
   point2D(x: number, y: number): point2D {
     return { x, y };
   }
-
-  doubleTapInit() {
-    VueTouch.registerCustomEvent('doubletap', {
-      type: 'tap',
-      taps: this.tapNumber,
-    });
-  }
 }
-
+VueTouch.registerCustomEvent('doubletap', {
+  type: 'tap',
+  taps: 2,
+});
 Vue.use(VueTouch, {
   name: 'v-touch',
 });
@@ -188,7 +189,6 @@ Vue.use(VueTouch, {
     position: relative;
     top: 0;
     left: 0;
-    // transform-origin: center center;
   }
 }
 </style>
