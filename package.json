@@ -1,6 +1,6 @@
 {
   "name": "vue-scaling",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "基于vue+vue-touch开箱即用缩放组件 (A super easy zomm components for Vue)",
   "author": "yufan <18766850824@163.com>",
   "main": "dist/lib/vue-scaling.umd.js",
