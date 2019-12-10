@@ -19,15 +19,15 @@ Vue.use(vueScaling)
 ##### 使用
 ```
 // 
-<vueScaling :height="400" :width="400">
+<vueScaling :height="400" :width="400" ref="vueScalingRef">
   <div style="background:rgba(97, 72, 72, 0.5);width:400px;height:400px"></div>
 </vueScaling>
 ```
 
 # 特性
-使用 TypeScript 构建，完整的单元测试，提供完整的类型定义文件。
-现代浏览器和 IE9 及以上。
-pc&wap 通用的缩放放大点击 Vue 组件 开箱即用。
+- 使用 TypeScript 构建，完整的单元测试，提供完整的类型定义文件。
+- 现代浏览器和 IE9 及以上。
+- pc&wap 通用的缩放放大点击 Vue 组件 开箱即用。
 
 # API
 ### 参数
@@ -37,12 +37,17 @@ width| 容器宽度 | Number| 400 |推荐必填|
 height| 容器高度 | Number| 400 |推荐必填|
 maxScale| 最大缩放倍数 | Number | 2 | 否|
 minScale| 最小缩放倍数 | Number | 0.5 | 否|
+tapNumber| 进行缩放的点击次数(大于2无效) | Number | 2 | 否|
+stopBorder| 如果stopBorder阻力大于0 移动时将会有边界判定 | Number | 0 | 否|
 
 ### emit方法
 属性 | 含义 |  返回值 | 是否必填
 ---|---|---|---
 moveChange| 移动时的emit | {x, y} |  否 |
-scaleChange| 缩放时的emit | {x, y} |  否 |
+scaleChange| 缩放时的emit | scale, {x, y} |  否 |
+
+### 内置方法 通过this.$refs.vueScalingRef 调用
+- this.$refs.vueScalingRef.backState() 回到初始状态
 
 # 注意
 通过改变css的overflow:hidden即可实现 拖动缩放隐藏边界的效果

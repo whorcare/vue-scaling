@@ -1,6 +1,6 @@
 <!--  -->
 <template>
-  <div class="vue-scale" ref="vueScaleRef" :style="{height: `${height}px`, width: `${width}px`}">
+  <div class="vue-scale" ref="vueScalingRef" :style="{height: `${height}px`, width: `${width}px`}">
     <!-- eslint-disable max-len -->
     <v-touch
       class="box"
@@ -9,6 +9,7 @@
       @pinchmove="onPinch"
       @pinchstart="onPinchStart"
       @doubletap="onDoubleTap"
+      @tap="onTap"
       :pinch-options="{ threshold: 0.09 }" :pan-options="{ threshold: 0.01 }"
       :style="{transform: `matrix(${this.tMatrix.join(',')})`, transition: this.duration ? '.3s ease all' : ''}">
       <!--此插槽可以缩放,拖动-->
@@ -45,6 +46,11 @@ export default class vueScaling extends Vue {
 
   @Prop({ type: Number, default: 0.5 }) private minScale!: number;
 
+  @Prop({ type: Number, default: 2 }) private tapNumber!: number;
+
+  // 阻力 如果为0则没有阻力
+  @Prop({ type: Number, default: 0 }) private stopBorder!: number;
+
   e: any = null;
 
   tMatrix: Array<number> = [1, 0, 0, 1, 0, 0]; // x缩放，无，无，y缩放，x平移，y平移
@@ -68,21 +74,33 @@ export default class vueScaling extends Vue {
   left: number = 0; // 距离左边
 
   mounted() {
-    this.top = (this.$refs.vueScaleRef as Element).getBoundingClientRect().top;
-    this.left = (this.$refs.vueScaleRef as Element).getBoundingClientRect().left;
-  }
-
-  onPan(ev: any) {
-    this.duration = false;
-    const cloneTMatrix = [...this.tMatrix];
-    cloneTMatrix[4] = this.lastTranslate.x + ev.deltaX;
-    cloneTMatrix[5] = this.lastTranslate.y + ev.deltaY;
-    this.tMatrix = cloneTMatrix;
-    this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });
+    this.top = (this.$refs.vueScalingRef as Element).getBoundingClientRect().top;
+    this.left = (this.$refs.vueScalingRef as Element).getBoundingClientRect().left;
   }
 
   onPanStart() {
     this.lastTranslate = this.point2D(this.tMatrix[4], this.tMatrix[5]); // 缓存上一次的偏移值
+  }
+
+  // 移动
+  onPan(ev: any) {
+    this.duration = false;
+    const cloneTMatrix = [...this.tMatrix];
+    const xStave = this.lastTranslate.x + ev.deltaX;
+    const yStave = this.lastTranslate.y + ev.deltaY;
+    if (this.stopBorder > 0) { // 如果stop阻力大于0 移动时将会有边界判定
+      const stopTrans = this.stopBorder * this.nowScale;
+      if ((xStave < -stopTrans) || (xStave > stopTrans)) {
+        return;
+      }
+      if ((yStave < -stopTrans) || (yStave > stopTrans)) {
+        return;
+      }
+    }
+    cloneTMatrix[4] = xStave;
+    cloneTMatrix[5] = yStave;
+    this.tMatrix = cloneTMatrix;
+    this.moveChange({ x: ev.center.x - this.left, y: ev.center.y - this.top });
   }
 
   onPinch(ev) {
@@ -123,7 +141,22 @@ export default class vueScaling extends Vue {
     this.poscenter = this.point2D(ev.center.x - this.lastcenter.x - this.left, ev.center.y - this.top - this.lastcenter.y);
   }
 
+  onTap(ev) {
+    if (this.tapNumber !== 1) {
+      return;
+    }
+    this.tapAllFun(ev);
+  }
+
   onDoubleTap(ev) {
+    if (this.tapNumber !== 2) {
+      return;
+    }
+    this.tapAllFun(ev);
+  }
+
+  // 点击事件合集
+  tapAllFun(ev) {
     this.duration = true;
     [this.nowScale] = this.tMatrix;
     const cloneTMatrix = [...this.tMatrix];

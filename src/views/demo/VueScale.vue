@@ -1,6 +1,6 @@
 <template>
   <div class="affix">
-    <VueScale :height="400" :width="400" @moveChange="moveChange">
+    <VueScale :height="400" :width="400">
     </VueScale>
   </div>
 </template>
@@ -14,15 +14,6 @@ import VueScale from '@/views/components/VueScalingDemo.vue';
   },
 })
 export default class vueScalingOut extends Vue {
-  // eslint-disable-next-line
-  moveChange(e) {
-    console.log(e, 'moveChangeEmit');
-  }
-
-  // eslint-disable-next-line
-  scaleChange(e) {
-    console.log(e, 'scaleChange');
-  }
 }
 </script>
 
