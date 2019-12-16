@@ -51,6 +51,9 @@ export default class vueScaling extends Vue {
   // 阻力 如果为0则没有阻力
   @Prop({ type: Number, default: 0 }) private stopBorder!: number;
 
+  // 开场动画
+  @Prop({ type: Boolean, default: false }) private animation!: boolean;
+
   e: any = null;
 
   tMatrix: Array<number> = [1, 0, 0, 1, 0, 0]; // x缩放，无，无，y缩放，x平移，y平移
@@ -73,9 +76,18 @@ export default class vueScaling extends Vue {
 
   left: number = 0; // 距离左边
 
+  created() {
+    if (this.animation) {
+      this.tMatrix = [0.01, 0, 0, 0.01, 0, 0];
+    }
+  }
+
   mounted() {
     this.top = (this.$refs.vueScalingRef as Element).getBoundingClientRect().top;
     this.left = (this.$refs.vueScalingRef as Element).getBoundingClientRect().left;
+    if (this.animation) {
+      this.animationStart();
+    }
   }
 
   onPanStart() {
@@ -88,6 +100,7 @@ export default class vueScaling extends Vue {
     const cloneTMatrix = [...this.tMatrix];
     const xStave = this.lastTranslate.x + ev.deltaX;
     const yStave = this.lastTranslate.y + ev.deltaY;
+    // debugger;
     if (this.stopBorder > 0) { // 如果stop阻力大于0 移动时将会有边界判定
       const stopTrans = this.stopBorder * this.nowScale;
       if ((xStave < -stopTrans) || (xStave > stopTrans)) {
@@ -124,7 +137,7 @@ export default class vueScaling extends Vue {
   @Emit('moveChange')
   // eslint-disable-next-line
   moveChange(point2DObj) {
-    return point2DObj;
+    return { point2DObj, tMatrix: this.tMatrix };
   }
 
   // 缩放开始
@@ -166,17 +179,20 @@ export default class vueScaling extends Vue {
       cloneTMatrix[3] = 1;
       cloneTMatrix[4] = 0;
       cloneTMatrix[5] = 0;
+      [this.nowScale] = cloneTMatrix;
+      this.tMatrix = cloneTMatrix;
       this.scaleChange(1, this.poscenter);
     } else {
       const pointer = ev.center;
       const scale = this.maxScale;
+      this.nowScale = scale;
       cloneTMatrix[0] = scale;
       cloneTMatrix[3] = scale;
       cloneTMatrix[4] = (1 - scale) * (pointer.x - this.center.x - this.left);
       cloneTMatrix[5] = (1 - scale) * (pointer.y - this.top - this.center.y);
+      this.tMatrix = cloneTMatrix;
       this.scaleChange(scale, { x: pointer.x - this.left, y: pointer.y - this.top });
     }
-    this.tMatrix = cloneTMatrix;
   }
 
   // 回到初始状态
@@ -191,10 +207,21 @@ export default class vueScaling extends Vue {
     this.scaleChange(1);
   }
 
+  // 动画函数
+  animationStart() {
+    setTimeout(() => {
+      this.duration = true;
+      this.tMatrix = [1.2, 0, 0, 1.2, 0, 0];
+      setTimeout(() => {
+        this.tMatrix = [1, 0, 0, 1, 0, 0];
+      }, 400);
+    }, 200);
+  }
+
   @Emit('scaleChange')
   // eslint-disable-next-line
   scaleChange(scale: number, point = {}): object {
-    return { scale, point };
+    return { scale, point, tMatrix: this.tMatrix };
   }
 
   // eslint-disable-next-line
