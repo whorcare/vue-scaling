@@ -18,8 +18,8 @@ Vue.use(vueScaling)
 
 ##### 使用
 ```
-// 
-<vueScaling :height="400" :width="400" ref="vueScalingRef">
+// 组件需要设置宽高样式
+<vueScaling style="width: 400px;height:400px;overflow: hidden" ref="vueScalingRef">
   <div style="background:rgba(97, 72, 72, 0.5);width:400px;height:400px"></div>
 </vueScaling>
 ```
@@ -33,18 +33,17 @@ Vue.use(vueScaling)
 ### 参数
 属性 | 含义 |  类型 |默认值 | 是否必填
 ---|---|---|---|---
-width| 容器宽度 | Number| 400 |推荐必填|
-height| 容器高度 | Number| 400 |推荐必填|
 maxScale| 最大缩放倍数 | Number | 2 | 否|
 minScale| 最小缩放倍数 | Number | 0.5 | 否|
-tapNumber| 进行缩放的点击次数(大于2无效) | Number | 2 | 否|
+tapNumber| 进行缩放的点击次数(可填 1 || 2) | Number | 2 | 否|
 stopBorder| 如果stopBorder阻力大于0 移动时将会有边界判定 | Number | 0 | 否|
+animation | 初始动画(在加载完成后会有一个动画效果) | Boolean | false | 否|
 
 ### emit方法
 属性 | 含义 |  返回值 | 是否必填
 ---|---|---|---
-moveChange| 移动时的emit | {x, y} |  否 |
-scaleChange| 缩放时的emit | scale, {x, y} |  否 |
+moveChange| 移动时的emit | {point2DObj: {x, y}, tMatrix: matrix数组} |  否 |
+scaleChange| 缩放时的emit | {scale, {x, y}, tMatrix: matrix数组} |  否 |
 
 ### 内置方法 通过this.$refs.vueScalingRef 调用
 - this.$refs.vueScalingRef.backState() 回到初始状态

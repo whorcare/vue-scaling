@@ -1,7 +1,7 @@
-<!--  -->
+<!-- vue-Scaling -->
 <template>
-  <div class="vue-scale" ref="vueScalingRef" :style="{height: `${height}px`, width: `${width}px`}">
-    <!-- eslint-disable max-len -->
+  <div class="vue-scale" ref="vueScalingRef">
+    <!-- eslint-disable -->
     <v-touch
       class="box"
       @panmove="onPan"
@@ -38,10 +38,6 @@ interface point2D {
   },
 })
 export default class vueScaling extends Vue {
-  @Prop({ type: Number, default: 100 }) private height!: number;
-
-  @Prop({ type: Number, default: 100 }) private width!: number;
-
   @Prop({ type: Number, default: 2 }) private maxScale!: number;
 
   @Prop({ type: Number, default: 0.5 }) private minScale!: number;
@@ -55,6 +51,10 @@ export default class vueScaling extends Vue {
   @Prop({ type: Boolean, default: false }) private animation!: boolean;
 
   e: any = null;
+
+  width: number = 0;
+
+  height: number = 0;
 
   tMatrix: Array<number> = [1, 0, 0, 1, 0, 0]; // x缩放，无，无，y缩放，x平移，y平移
 
@@ -83,11 +83,13 @@ export default class vueScaling extends Vue {
   }
 
   mounted() {
-    this.top = (this.$refs.vueScalingRef as Element).getBoundingClientRect().top;
-    this.left = (this.$refs.vueScalingRef as Element).getBoundingClientRect().left;
-    if (this.animation) {
-      this.animationStart();
-    }
+    this.top = (this.$refs.vueScalingRef as Element).getBoundingClientRect().top || 0;
+    this.left = (this.$refs.vueScalingRef as Element).getBoundingClientRect().left || 0;
+    this.width = (this.$refs.vueScalingRef as any).offsetWidth;
+    this.height = (this.$refs.vueScalingRef as any).offsetHeight;
+    this.lastcenter = this.point2D(this.width / 2, this.height / 2);
+    this.center = this.point2D(this.width / 2, this.height / 2);
+    if (this.animation) { this.animationStart(); }
   }
 
   onPanStart() {
@@ -100,7 +102,6 @@ export default class vueScaling extends Vue {
     const cloneTMatrix = [...this.tMatrix];
     const xStave = this.lastTranslate.x + ev.deltaX;
     const yStave = this.lastTranslate.y + ev.deltaY;
-    // debugger;
     if (this.stopBorder > 0) { // 如果stop阻力大于0 移动时将会有边界判定
       const stopTrans = this.stopBorder * this.nowScale;
       if ((xStave < -stopTrans) || (xStave > stopTrans)) {
