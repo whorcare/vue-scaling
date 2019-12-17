@@ -4,6 +4,10 @@
 # pc & wap 端效果
 ![双击缩放或者移动到原点](https://1img.evente.cn/84/23/24/91d3e0e8561ea75bf9e4adcfdf.jpg?imageView2/2/w/740)
 ![双击缩放或者移动到原点](https://0img.evente.cn/69/1e/19/bcfd8bc55db61d537324789c18.jpg?imageView2/2/w/740)
+
+# 如果图片打不开...
+[掘金地址](https://juejin.im/post/5df89e0c51882512243f9ca8) 
+
 # 安装
 ```
 npm i vue-scaling
@@ -35,7 +39,7 @@ Vue.use(vueScaling)
 ---|---|---|---|---
 maxScale| 最大缩放倍数 | Number | 2 | 否|
 minScale| 最小缩放倍数 | Number | 0.5 | 否|
-tapNumber| 进行缩放的点击次数(可填 1 || 2) | Number | 2 | 否|
+tapNumber| 进行缩放的点击次数(可填 1 or 2) | Number | 2 | 否|
 stopBorder| 如果stopBorder阻力大于0 移动时将会有边界判定 | Number | 0 | 否|
 animation | 初始动画(在加载完成后会有一个动画效果) | Boolean | false | 否|
 
@@ -66,3 +70,8 @@ scaleChange| 缩放时的emit | {scale, {x, y}, tMatrix: matrix数组} |  否 |
 
 ### ISS
 [提iss](https://github.com/whorcare/vue-scaling/issues/new)
+
+### 更新日志
+#### v0.2.0
+- 删除 width,height 参数。推荐改写为css样式作用在组件上
+- 增加初始化加载动画
